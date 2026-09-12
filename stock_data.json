@@ -3,19 +3,19 @@
         {
             "symbol": "1416",
             "name": "廣豐",
-            "is_niche_stable": false,
+            "is_niche_stable": true,
             "listed_count": 2,
-            "latest_price": 11.75,
-            "avg_vol_20d_sheets": 677.0,
-            "dividend_yield_pct": 4.85,
+            "latest_price": 11.3,
+            "avg_vol_20d_sheets": 355.0,
+            "dividend_yield_pct": 5.04,
             "dividend_amount": 0.57,
-            "beta": 0.1228,
+            "beta": 0.1254,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 0.81,
             "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/1416/news",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zZUtaZ1JkT0xyLXY1dVpuUHFOcTJpbjdxcXpOWmgzWENuWGpYX3NicFptQ19BcjV1eG1hdWEzLVZRYVBjN2pESkhUT3JWWTh5ZWRn?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -33,7 +33,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false,
             "has_souvenir": true,
@@ -46,16 +46,16 @@
             "is_niche_stable": false,
             "listed_count": 2,
             "latest_price": 34.85,
-            "avg_vol_20d_sheets": 891.0,
+            "avg_vol_20d_sheets": 558.0,
             "dividend_yield_pct": 7.17,
             "dividend_amount": 2.5,
-            "beta": 0.4098,
+            "beta": 0.4058,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 2.77,
             "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/1612/news",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE40UVpFSmFoelVnN0hsbEtZTFc1UGM2YUFvZ05EWHRoc0RsRV9MbHplb0kwNi1jWDQyclVUazRIbVRtZl9fYVJMM2FPOHF1cXM?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": true,
@@ -73,7 +73,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         },
@@ -82,17 +82,17 @@
             "name": "興農",
             "is_niche_stable": false,
             "listed_count": 2,
-            "latest_price": 40.65,
-            "avg_vol_20d_sheets": 1372.0,
-            "dividend_yield_pct": 6.15,
+            "latest_price": 40.25,
+            "avg_vol_20d_sheets": 1306.0,
+            "dividend_yield_pct": 6.21,
             "dividend_amount": 2.5,
-            "beta": -0.0198,
+            "beta": -0.0196,
             "avg_fill_dividend_days": 2.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 2.6,
             "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/1712/news",
+            "google_news_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOcUtsSGpkdGV0NjI1Z1drMTB4cWhkbkRvakZLcjRzSEE3WFR2TG5FUnpVT3UyVUpyVm53LXNjZ3FrMWJPWm1xZU5kWGFURDFReE4tRmxwWGNGQWFENlo0SU5tbl9SenRYOWhnQldrY2VRLWpOX1gyci1UTXR6UUI2eDd6bmZaWmtMVjBPaVFjTVpIbzl6eEQ1dnkxNjJGTkZSVXBTRGE1QWo1SFl4ZDQ4eHo2OHdGNFNwMDBnNUpTNVk2QnhqNlYtUFJEb1ZtRFNpSURpOGNxQnRHY0lFOTY5cmg1eVdDQ1dsYXVzT1BSQXhKSThWXzR3ZlkwSjVrSl9WRENsNTNNZlFWODM5MTllZVBrNmY?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": true,
@@ -110,7 +110,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false,
             "has_souvenir": true,
@@ -118,61 +118,21 @@
             "souvenir_last_buy_date": "2026-03-25"
         },
         {
-            "symbol": "1737",
-            "name": "臺鹽",
-            "is_niche_stable": true,
-            "listed_count": 2,
-            "latest_price": 30.65,
-            "avg_vol_20d_sheets": 245.0,
-            "dividend_yield_pct": 4.57,
-            "dividend_amount": 1.4,
-            "beta": 0.0318,
-            "avg_fill_dividend_days": 0.0,
-            "failed_fill_count": 0,
-            "is_dividend_spike": false,
-            "last_year_eps": 2.0,
-            "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjd3Z6UmRXTHJqb3hoczB1d0l0TlJVajVkdGpBQm56WlFqRTB5ODMtdko4dHFuQUNrczVKdjV4WGh3bFdFbnN6OG9Pc2U4STg?oc=5",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": false,
-            "is_outlier_warning": false,
-            "is_long_dividend": true,
-            "has_volatility_warning": false,
-            "pure_eps_ratio_avg": 100.0,
-            "capital_event": "",
-            "major_news_event": false,
-            "gift_name": "台塩 生技UP機能吸凍1盒 參考圖",
-            "gift_last_buy_date": "2026-04-22",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-08",
-                "2026-09"
-            ],
-            "last_hit_date": "2026-09-05",
-            "warning_status": "",
-            "is_returning": false,
-            "has_souvenir": true,
-            "souvenir_title": "台塩 生技UP機能吸凍1盒 參考圖",
-            "souvenir_last_buy_date": "2026-04-22"
-        },
-        {
             "symbol": "2006",
             "name": "東和鋼鐵",
             "is_niche_stable": false,
             "listed_count": 4,
-            "latest_price": 81.6,
-            "avg_vol_20d_sheets": 1942.0,
-            "dividend_yield_pct": 5.27,
+            "latest_price": 82.5,
+            "avg_vol_20d_sheets": 1385.0,
+            "dividend_yield_pct": 5.21,
             "dividend_amount": 4.3,
-            "beta": 0.154,
+            "beta": 0.1487,
             "avg_fill_dividend_days": 12.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 6.47,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNa0VHd3FoRnVqaEtnWmJCYWp2TlAtcVpOU2ZJMzV6aGsyb3UtTy1mQTQtOVBhaUsycEY0MGw5eFVIX1RGaUQzc0kycjEzTkF3eEMyWHJwakxzZWRFLWFZUHBOYVZCck1uWEM5VzMxX1hZODN3UGhJNWtkQmR3VkhNYXRJQVAtWlVJMDJhVGJOY0tJOF9XMGxKMXMzS2ZVMUxkVVlHaFdkRk5fMjg3Z0V2TG9PcHRZSElDNFc5bm9DcnVRMVR4Q2hMaHd0TkR2TmxSV1ZKNjhvekEzVlZLd2Jremh1b0UzdW1mWng5a214TzAzNDNuNXNqQk1DQklIQ01rSGlyYTFQSUt5a0pmRnBMR0NxaXZBUk5qM3pTMjJwLVRPaTZGWnVKb2FudGM?oc=5",
+            "google_news_url": "https://tw.stock.yahoo.com/quote/2006/news",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -192,7 +152,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false,
             "has_souvenir": true,
@@ -204,17 +164,17 @@
             "name": "厚生",
             "is_niche_stable": true,
             "listed_count": 5,
-            "latest_price": 26.8,
-            "avg_vol_20d_sheets": 287.0,
-            "dividend_yield_pct": 5.22,
+            "latest_price": 26.75,
+            "avg_vol_20d_sheets": 288.0,
+            "dividend_yield_pct": 5.23,
             "dividend_amount": 1.4,
-            "beta": 0.1668,
+            "beta": 0.1643,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 1.67,
             "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/2107/news",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2OFE4Zl9pRTFEMHdET3N2MWVIa1B1Q2doNEtfaXR3MkVnOVlfejlkbTlRQXlrb05OMlprYzYteEp3REhMdDZ5bDhqZ3ZNMXMtRmY4?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -235,26 +195,65 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
+        },
+        {
+            "symbol": "2535",
+            "name": "達欣工",
+            "is_niche_stable": true,
+            "listed_count": 1,
+            "latest_price": 89.8,
+            "avg_vol_20d_sheets": 229.0,
+            "dividend_yield_pct": 5.12,
+            "dividend_amount": 4.6,
+            "beta": 0.3291,
+            "avg_fill_dividend_days": 0.5,
+            "failed_fill_count": 0,
+            "is_dividend_spike": false,
+            "last_year_eps": 6.5,
+            "recent_news_alert": true,
+            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oY2pfanJZVU9kc3UzeUl4TkhMcDI2cTRZcGRrRGxad1FvcHVDZ0dOVFpfTldDdklyTVVkWDh2QjRmMDc3Y0JKbUR3dlZCeDZEaEpj?oc=5",
+            "is_0050": false,
+            "is_financial_holding": false,
+            "is_super_yield": false,
+            "is_fast_fill": true,
+            "is_outlier_warning": false,
+            "is_long_dividend": true,
+            "has_volatility_warning": false,
+            "pure_eps_ratio_avg": 100.0,
+            "capital_event": "",
+            "major_news_event": false,
+            "gift_name": "BLACK HAMMER耐熱玻璃法式濾壓壺 參考圖",
+            "gift_last_buy_date": "2026-04-08",
+            "is_evergreen": false,
+            "history_hits": [
+                "2026-09"
+            ],
+            "last_hit_date": "2026-09-12",
+            "warning_status": "",
+            "is_returning": true,
+            "has_souvenir": true,
+            "souvenir_title": "BLACK HAMMER耐熱玻璃法式濾壓壺 參考圖",
+            "souvenir_last_buy_date": "2026-04-08"
         },
         {
             "symbol": "2633",
             "name": "台灣高鐵",
             "is_niche_stable": false,
             "listed_count": 3,
-            "latest_price": 26.1,
-            "avg_vol_20d_sheets": 3423.0,
+            "latest_price": 26.05,
+            "avg_vol_20d_sheets": 3027.0,
             "dividend_yield_pct": 4.41,
             "dividend_amount": 1.15,
-            "beta": 0.1126,
+            "beta": 0.1086,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 1.17,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wWnltODlmbDM1eERLOFdQNVRvS1lWb09YWW95Zm8zSS1WeDAwMHFkSV94bWU2VWR5NnhnbWphMzFZWXFnQ05Hd1VtQ281VXc?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQN0syc1RHd0E4cUs4VWMzRDkxaGlCZ3lkUUEyRnlrMWZvRm0xOG91TkpXbXQwd0JEQ04xejU5d3RLSkNiaHVWUTJhaWxSWlhwZGRzeEw2NGszOEhPeWNjRGgzYXlfX1VzcW05OUUwWjduSlNHN09pMmU2bGRRbzIxN2NzdzF1VzM4Vmt0aWVFUUZ4VXdSUHRCRXA5MTdocEt2WmtGcXkzZzM5dVZJYXBYRi1IWG9lcjA5RDZDZjNKbVg5eDBYNVlQYlc0SnI3WG44NkpVZVdaQS1VUldXOU9zTmlMdmh6bWJMQ2Jyb0lVS2E5UzBPWXpXLTc4emNyUQ?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -273,7 +272,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         },
@@ -282,17 +281,17 @@
             "name": "華票",
             "is_niche_stable": false,
             "listed_count": 2,
-            "latest_price": 17.1,
-            "avg_vol_20d_sheets": 2475.0,
-            "dividend_yield_pct": 5.26,
+            "latest_price": 17.4,
+            "avg_vol_20d_sheets": 2651.0,
+            "dividend_yield_pct": 5.17,
             "dividend_amount": 0.9,
-            "beta": 0.0847,
+            "beta": 0.0715,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
-            "last_year_eps": 1.02,
+            "last_year_eps": 1.34,
             "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/2820/news",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PYkF6SlZyNkU1cXJvYnJUS1VhU3p5YXQySXZEUC1ib3B1OUlPc1k0cUtYU1FYdHY5VHoteFdMZ2FiUzFxYWxVVEx3dXFrV0cwWTk4?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -300,7 +299,7 @@
             "is_outlier_warning": false,
             "is_long_dividend": true,
             "has_volatility_warning": false,
-            "pure_eps_ratio_avg": 99.6,
+            "pure_eps_ratio_avg": 100.0,
             "capital_event": "",
             "major_news_event": false,
             "gift_name": "",
@@ -310,7 +309,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         },
@@ -319,17 +318,17 @@
             "name": "中再保",
             "is_niche_stable": false,
             "listed_count": 2,
-            "latest_price": 46.65,
-            "avg_vol_20d_sheets": 4486.0,
-            "dividend_yield_pct": 4.72,
+            "latest_price": 47.15,
+            "avg_vol_20d_sheets": 4859.0,
+            "dividend_yield_pct": 4.67,
             "dividend_amount": 2.2,
-            "beta": 0.328,
+            "beta": 0.3102,
             "avg_fill_dividend_days": 0.5,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 3.14,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5oZWxVUVRoOTd5VEtSeE9LWWJnUDNTRjNURlhMYjJBNFRpZlhwM2FmRW4xSGY3b3V6ZDRLYWVoQWZYN3BCT1FJMWtNOERubGVmSEJJ?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQT1hxc2RYZXM0ajNZejdaZmtXaXlOOE5Sa0Zpdi15SHdDaWp2Zm9TdFcySUdEQ1plQ08zRjNsNGtId0NOa1BvS3A0MjdzUVlrRFZQOHJ2RGluM3ZubElqUFpDQzBYejVyemVsblJlekxpZ3lGMkpnTHluYzdGdGdTQXliNFJGVGdlTUVuUEoxR1F5a2RXUU02SjYzcElNdTl3Ylp1UmJLOFZZN3FlU0wzNGdKOW90a0VFa1pDWElMSWo0VEYwR2NkNDBpTHczV2pyMl9RVVBQWXdyUG05S3RXYzlPVHNqT2ZfdFZ1WVkzb2RCQWlaOHhSVmdvVy1HYklveW1qQ0Nod0pOdm1VS2pQLXRqS0lvb0FlNThfby1PSm5UWmNVU1pWWURYd09WaDVBekRNZmh0U1I1MlBacTBialItNTNJMjA3NXF3NFJ4eUNvWVdMaUtJMWp3?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -347,26 +346,65 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
+        },
+        {
+            "symbol": "6136",
+            "name": "富爾特",
+            "is_niche_stable": true,
+            "listed_count": 1,
+            "latest_price": 24.7,
+            "avg_vol_20d_sheets": 206.0,
+            "dividend_yield_pct": 4.7,
+            "dividend_amount": 1.16,
+            "beta": 0.1663,
+            "avg_fill_dividend_days": 0.0,
+            "failed_fill_count": 0,
+            "is_dividend_spike": false,
+            "last_year_eps": 0.89,
+            "recent_news_alert": true,
+            "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wRDdVcWdDTFVqeFp4NzV4aC13ZkM4ZE5lLWo3YVhFOWJ4dW1sYUIxWWlzN0NyT3V2ZDV6R2pKQVNTVnpjbFdENUxyYVpiaVE?oc=5",
+            "is_0050": false,
+            "is_financial_holding": false,
+            "is_super_yield": false,
+            "is_fast_fill": false,
+            "is_outlier_warning": false,
+            "is_long_dividend": true,
+            "has_volatility_warning": false,
+            "pure_eps_ratio_avg": 75.0,
+            "capital_event": "",
+            "major_news_event": false,
+            "gift_name": "手工香皂 參考圖",
+            "gift_last_buy_date": "2026-04-15",
+            "is_evergreen": false,
+            "history_hits": [
+                "2026-09"
+            ],
+            "last_hit_date": "2026-09-12",
+            "warning_status": "",
+            "is_returning": false,
+            "has_souvenir": true,
+            "souvenir_title": "手工香皂 參考圖",
+            "souvenir_last_buy_date": "2026-04-15"
         },
         {
             "symbol": "6670",
             "name": "復盛應用",
             "is_niche_stable": true,
             "listed_count": 2,
-            "latest_price": 275.5,
-            "avg_vol_20d_sheets": 214.0,
-            "dividend_yield_pct": 5.81,
+            "latest_price": 275.0,
+            "avg_vol_20d_sheets": 202.0,
+            "dividend_yield_pct": 5.82,
             "dividend_amount": 16.0,
-            "beta": 0.2095,
+            "beta": 0.2122,
             "avg_fill_dividend_days": 4.0,
             "failed_fill_count": 1,
             "is_dividend_spike": false,
             "last_year_eps": 22.45,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxOMFBqUFI2SmM4bzdkMTgyS3BYQTRNMU5oRW03YWtSNmF5em05SHptUG5zU1JJVjJlc2pKa0xaLUR1RDdwTV9KTjV0MU5ySlNXcEFxeW5oeE1IRXQ0WnFSazZWYXpMTTVSTW5nenIzR1RwNmMtcFE2ckgtSHdOS3FjbC1Hc1lCYWd4QWlybHBKRlZtWlM0aFlJdmt5bkNHMFZZX0RKUE83ZmxiaHQ1TGdhQjlNS3NZZUtUWWh3SEM0VEdEc0lvbWVpQVNDaGVmR1hUM1lqX3Q5dHh6ckF6X1lVWWJoWXQxMkFNUk9FVHRfc3VJcmViX01fbDF3Sm1MQmZKeERVOXZNVDU2VVFHaWlIUmRDVzdzeFExR2R5c3E5ZEdtczEzcUdEZmh3Wmp1aTYzdlhQbTcyX3g?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB6ZHhmRGk5OFhITi1sZ0R5eW5fUEk1QVRqdTVyVnNYQ0pNbmluem45N0NfZjB0bTByWlA1amJyOFVGXzNkWWxOMVVpaVI5R214TlZv?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -384,7 +422,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         },
@@ -393,17 +431,17 @@
             "name": "億豐",
             "is_niche_stable": true,
             "listed_count": 3,
-            "latest_price": 373.5,
-            "avg_vol_20d_sheets": 413.0,
-            "dividend_yield_pct": 4.28,
+            "latest_price": 371.0,
+            "avg_vol_20d_sheets": 313.0,
+            "dividend_yield_pct": 4.31,
             "dividend_amount": 16.0,
-            "beta": 0.2005,
+            "beta": 0.1921,
             "avg_fill_dividend_days": 13.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 22.53,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1SSjJMR05Rd0tiYVk1eDMzQ0E1ZUFUUHY5eG5uUXR0MEY4ZTdObHl5eWNxUTVRaXRYMUJGWjBFVnowUm03TmMzMTN3MVRQLTg?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb291ZVAtemR3WEE3MkNzNlc3T2JsYV93Uk1zUHBpeUxibFdmckozNnVDMWt5bHFja2pfMFdaMGNCYTRrdW9mOTBIT29EMHQ0ZmZDWjFoNmhtMlE5OHZJcVFKNmxqR1JqT3ZPSGhrZGw3aFFvYURRY3Z3dzBlaGZZYWJjaEpDLXM4Zjd3X1E3MG9hNXpKR2Z3VlJVXzRUM18wMTdDSUFB?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -422,105 +460,28 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
-            "warning_status": "",
-            "is_returning": false
-        },
-        {
-            "symbol": "9925",
-            "name": "新保",
-            "is_niche_stable": false,
-            "listed_count": 3,
-            "latest_price": 39.55,
-            "avg_vol_20d_sheets": 1270.0,
-            "dividend_yield_pct": 5.06,
-            "dividend_amount": 2.0,
-            "beta": 0.009,
-            "avg_fill_dividend_days": 0.0,
-            "failed_fill_count": 0,
-            "is_dividend_spike": false,
-            "last_year_eps": 2.37,
-            "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xaWtld2FheGtCSjgwalR0VG1oaFNCNWktZDhRQ3VqMll0d3g0TktJeWI5MkVEeElRZkFMNmhiUXdGQm9rVVdXX29FZGpiLXRNdkJV?oc=5",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": true,
-            "is_outlier_warning": false,
-            "is_long_dividend": true,
-            "has_volatility_warning": false,
-            "pure_eps_ratio_avg": 100.0,
-            "capital_event": "",
-            "major_news_event": false,
-            "gift_name": "",
-            "gift_last_buy_date": "",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-07",
-                "2026-08",
-                "2026-09"
-            ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         }
     ],
     "growth_stocks": [
         {
-            "symbol": "2312",
-            "name": "金寶",
-            "is_niche_stable": false,
-            "listed_count": 1,
-            "latest_price": 32.85,
-            "avg_vol_20d_sheets": 12780.0,
-            "dividend_yield_pct": 1.83,
-            "dividend_amount": 0.6,
-            "beta": 1.0608,
-            "avg_fill_dividend_days": 1.0,
-            "failed_fill_count": 0,
-            "is_dividend_spike": true,
-            "last_year_eps": 1.05,
-            "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPT0hncDRPQTdIaV9kMmh3aFZERmk5N2dqZjE5bGtySXJHTWdkMXc5X1pjTTZBdWotbGhscXJIbjdnTGZfNnZwYWQ0UGIwazB2X185REZuUzhnbTBxUDBIQW8wLXhwTkI2MzRxUUdTa0pUQVBtT2RBN19GaHJ5bzk5Mjh0SDNyTVZDMTZOWGxZVTU4OWUzU01wbnkydUFlY2RKT3V1UjQ5NUxCazU2dnN4bTFYTjJlVDJQRm8xeEw2RWxUeWw0cjVIbHVfaXdBZnRpRmJXOU0wV28yVWt2empRbE1yNk00a09ZdWthRVhrdDZ0TVFzdXpNS1A5VUVfdGZlTmduQ1RxMXViVm5RdkM1djFlalE3bVhXTTEzYnVMeDFMTi1GMTRtZTktdERON0NyQUdkOFJOY1lkdUJBN0hQYWktOXAxU0F3Y1JYamVqdGpMaVh3U0pRZjVfTF8zMmtxVVpoNlc2M0ticF9zcjN4Z2JDWFc0SFlSSXNKMjBtck5oNEJOaWNKR1VTUzdHTXUwcHM5WXZ1akNHSk95OEljTTM0M19lb01xRGM0dFZTQVh1d0NHY25lVlJpM2J3QQ?oc=5",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": true,
-            "is_outlier_warning": false,
-            "is_long_dividend": true,
-            "has_volatility_warning": true,
-            "pure_eps_ratio_avg": 95.0,
-            "capital_event": "",
-            "major_news_event": false,
-            "gift_name": "再生布卡夾 參考圖",
-            "gift_last_buy_date": "2026-03-24",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-09"
-            ],
-            "last_hit_date": "2026-09-05",
-            "warning_status": "",
-            "is_returning": false,
-            "has_souvenir": true,
-            "souvenir_title": "再生布卡夾 參考圖",
-            "souvenir_last_buy_date": "2026-03-24"
-        },
-        {
             "symbol": "2376",
             "name": "技嘉",
             "is_niche_stable": false,
             "listed_count": 2,
-            "latest_price": 361.0,
-            "avg_vol_20d_sheets": 8038.0,
-            "dividend_yield_pct": 3.32,
+            "latest_price": 349.0,
+            "avg_vol_20d_sheets": 6285.0,
+            "dividend_yield_pct": 3.44,
             "dividend_amount": 12.0,
-            "beta": 0.9127,
+            "beta": 0.9132,
             "avg_fill_dividend_days": 1.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 18.2,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yWTRmREVxTEJSZGNuR2ttVkx3RnZ4V1BKNXlXRnBseGs0VkNDRWZyREk2T1FBTFVlMUFSNklKYm9iWlB2VFhzb21jazRwVDNZUi1ZRjZR?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNUzNXcnhfMTA4UEc1VFIwZFN6N01Tc2ZyS3pyYUNBYk1McndlRWhlanpkeGNQOHdHS0VUU2FJUlZsN2trRGtzUXJPRFpWUEFBVEJUcW5pS3ZsU2hROXhJN3Q1NHpmZ1o3MUktZUdBYjNTcHdNMHpJYUlMZXp6U3h1aDVkdlV0SHpJbWFjZjgtZzBIOTlmVlR4N1FJbWo4UFRlZmU1M1ZZS2pNTDB4TXh4YldteFhtVGNnbHFpdDQ4MWJTbUFPLUFPTmMxbElQNWkxWHBuVlZtN3BLNmd3aGM0QnRoeTZGQVpnLVdaM19zOHliQ080V3lReEFwb1A4aFc1MWpiTGJPNFdic0tEaXVQMm40Y2VqcVJr?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -538,7 +499,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         },
@@ -547,17 +508,17 @@
             "name": "健鼎",
             "is_niche_stable": false,
             "listed_count": 2,
-            "latest_price": 488.5,
-            "avg_vol_20d_sheets": 3991.0,
-            "dividend_yield_pct": 2.6,
+            "latest_price": 508.0,
+            "avg_vol_20d_sheets": 2972.0,
+            "dividend_yield_pct": 2.5,
             "dividend_amount": 12.7,
-            "beta": 1.0835,
+            "beta": 1.0747,
             "avg_fill_dividend_days": 7.0,
             "failed_fill_count": 0,
             "is_dividend_spike": true,
             "last_year_eps": 19.45,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBPQlRIaXRkdGJnbVZ3UC04bFFMWXFpXzlnM3dUaE15WWxhaWtjUGpyZW82TVgxcExUT0JIZjI5a1BoVDQwU0ZrWGJUZDZCMk5SQ0M1MU41c1lJNmFpd2NR0gFfQVVfeXFMUE9CVEhpdGR0YmdtVndQLThsUUxZcWlfOWczd1RoTXlZbGFpa2NQanJlbzZNWDFwTFRPQkhmMjlrUGhUNDBTRmtYYlRkNkIyTlJDQzUxTjVzWUk2YWl3Y1E?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qa1FPdFZCbWxPRE5CYkMtdmlwSVc4aWptaDVZRlJNUzJXYzA1RXNFMWY4YjFnaFl6ZFVyQXJ4LXdEQ3Z2N0xiaF9oTjMzT2s?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -575,7 +536,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         },
@@ -584,17 +545,17 @@
             "name": "緯創",
             "is_niche_stable": false,
             "listed_count": 1,
-            "latest_price": 198.0,
-            "avg_vol_20d_sheets": 49030.0,
-            "dividend_yield_pct": 2.78,
+            "latest_price": 185.5,
+            "avg_vol_20d_sheets": 52689.0,
+            "dividend_yield_pct": 2.96,
             "dividend_amount": 5.5,
-            "beta": 0.9108,
+            "beta": 0.9052,
             "avg_fill_dividend_days": 1.0,
             "failed_fill_count": 0,
             "is_dividend_spike": true,
             "last_year_eps": 9.04,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNZnNUZmdnMWMyOTh6a2V6ZVNCR3BUUmhpSGpoai1RbEl1ZTY2U29YOG9FT2VtVlJWbnhSZFEtUmJ3UDJ0aTlSbVpGTnFmOVdMSGQzNmtvUVRCMVUtZEJVb3lBQ2RLTkdORWFIMmt0N2NNZ0ZHRWg3M1N6MnoxZlF1ZVZVaUthV3lDR05ScndCVXB6Y3RGdC1kaDBXekYtSUdET1hMQ0JvQjdodFBIbjJ4c29PaklzMVh1YWljX1RZUGRmZVJPNElwWm51VmZWT05FaTNKdWNSYUdqdklqWC1MT3pzWGNTTUhwZ0c0a2pXenhDZW16U0hQbUl2OGZlNllWTzBqT0xDN3J1aWF2Q1l6MDBfNEQwTm42QjlvbHVHTjQzX0I3Wkcyby00YWpha1FQbVZYUmhFQUdMYWFReXotY3hzbzZOcnN0RTFoNEhRdFNoQQ?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNV0xXWVhGdTd5SlFWMm40RUExZDJyc09kWFplanVwWlp5aHc4amptcS1yc0QwUlU4aTMyUGdkMjZqQ25mZk92UlktUVZCTUd5UE5ocUlaaXhickpHSTVPOFNMVDBPTWFOd0N0LVZYM09qM0JBbDVjem9iMGRTVVZEZzcwLVVhTW0zbTlMNnVxUVBPV0FEVWljWnZWTFhiQjFSY3NIZmhJTTNKLW93LTZSdTdic00waWpGRzFqekprdzIzS1JHN3dKQzZJVXl6c3BKNUN1d3dFTDhwYUN6bmdnX3VYTzBJWjIwb0VGc2hVOVVFdW9OQ3RmaVNGLV9TQnFzYUFCeWlKcTFLQUFzRFA5UkNqRllSeF9FSjN5LVlmZjM0ZFRheE9UbnJxR1pPUUNqLVlZdXdLT2RyMS1KNmF2UDQxc2Qxd1Ffb3VDN3BYNA?oc=5",
             "is_0050": true,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -611,26 +572,26 @@
             "history_hits": [
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
-            "is_returning": true
+            "is_returning": false
         },
         {
             "symbol": "5434",
             "name": "崇越",
             "is_niche_stable": false,
             "listed_count": 5,
-            "latest_price": 538.0,
-            "avg_vol_20d_sheets": 759.0,
-            "dividend_yield_pct": 2.49,
+            "latest_price": 527.0,
+            "avg_vol_20d_sheets": 695.0,
+            "dividend_yield_pct": 2.55,
             "dividend_amount": 13.42,
-            "beta": 0.9225,
+            "beta": 0.9222,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 21.81,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBqUXd0S0VaVlptNDdMTVBhcUtqNmlEX1ZGZU9POEVYQlJNeEdkOW5iejg4NmNyRTJoSE5oaUZ6UHVzejdyY2xSaFRESzkxVGt2ZEZZS2RJbV9WSndPYXJ30gFfQVVfeXFMUGpRd3RLRVpWWm00N0xNUGFxS2o2aURfVkZlT084RVhCUk14R2Q5bmJ6ODg2Y3JFMmhITmhpRnpQdXN6N3JjbFJoVERLOTFUa3ZkRllLZEltX1ZKd09hcnc?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQNVkzRGZtMWpub1lOMnpwX28wc3lsMmZYZjBLdHc4WXZnTzBiZmQ1aTdpNVNCdVo1ZXExWWJNRVBJa3Uyd3pQODZMMlg0dXVvbV9ld0VSZ3RPRTFXaER4MENTU0lRX2c1UFc2Wm1vSDlHa2FkX3V5MHQwNXBFbnVZMDh1Rm9TNTBfOFJZem1JRnhHWk9NNkZsSDdfWjBnc3pCdERNOWtZcHZzcnNnSzItcEZNNDd4WkhCb1BFNllxT09IVjN5LUIzeXY0Q0ZSNEd6YWhBcFM2LTNHYkV2eEdNanBkRnJnWWtWeHdVeFp4aXNHdHBEUThYSkk2QzBSX0NrOERyQXZZVDN4VEVr?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -651,7 +612,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         },
@@ -660,17 +621,17 @@
             "name": "緯穎",
             "is_niche_stable": false,
             "listed_count": 3,
-            "latest_price": 2565.0,
-            "avg_vol_20d_sheets": 4479.0,
-            "dividend_yield_pct": 1.89,
+            "latest_price": 2310.0,
+            "avg_vol_20d_sheets": 4119.0,
+            "dividend_yield_pct": 2.1,
             "dividend_amount": 48.41,
-            "beta": 1.1779,
+            "beta": 1.1703,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 0,
             "is_dividend_spike": true,
             "last_year_eps": 275.06,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxOaHlwY2xCdTFmVlpna2N1bWxfX3BtNC1PcFRFaVMxbFZKVjYxX2xLYUNQVjZ0UXQwMjluNm9WVG9DYnBCZExuR24yS2xQZ0Z3R2lxNkJUMDJTYlVJbzludFpPQ0VVOEpoZDRLSFNNNFRSSmlrZXVrMk9wTjBFQWxjbHZwcmJQTHVTOUo2cEoyeWc1aWdhWFJhTFJ3R1lJT3FhUzRVM2RHYnEyYkNTNkt1VTZfOVB4S3gyVXo5Tk10WU5zbVhnRVR1WG9vMjVoWjFvN1FZYmlRWURQX2VscXR4NkVfTzlraUJ1Q2E5dmxwZjE3QWdTdnhZaFdsWjc3NnptZzBHZmVTeDVsZE5iMVVQTU1oLUllWXkwaXRZTENyaXNTa01UVktSU0s1U2pXbUIzZ21MSGcxS0piRlhaZWVra3k4X0hCUy1JYlpJV0UzUFZDMnBUSXVBUXBiSGVlY1hQQ3liQlEwN29rZTBV?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQOGVMT1M2MEZpNF96bHB2aWMwNFdzZnNQQk9sUmF5bFBmbVR4ajlqdkpjd2lhcmJTSzJhR25pX2RRZDJPUjdnd01oU25IQVlQMVFZczMzLWp0RGxndENUUDhFb3VDUThWQV93clprQ0Rld0xWdzNBQXR5ckpwb2VhdlFsSHYzX3ZObm5GTFBkVWwwYTYzcnl2NV9XbGI2ZkRlUlIxejZDaTVCRjBpa2FWUDdPdUlRUkVHcDVHXzFSQnQ4VEpEYkdZMmNGN3NXcFRVdHJvWDB0Q0h0aGFScGxIMGdna1k1UWY0amtGVEtpMlRYMzNWaTVqbkpCdkRMRjhYYjhTSFhDeENUVkppcHE1eGlqcnNRMEtyR3VyYUZIMEdrdWtUbjFJMXNJVUR5V2V5elFFSWRjcFhSOHFVSUJKcUE5V0ZKdnl0MVpuQzJuVjR0N3RPSl9BcXhOT25wdjQ?oc=5",
             "is_0050": true,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -679,7 +640,7 @@
             "is_long_dividend": true,
             "has_volatility_warning": true,
             "pure_eps_ratio_avg": 100.0,
-            "capital_event": "股本大幅變動 (+198.1%)",
+            "capital_event": "股本大幅變動 (+197.2%)",
             "major_news_event": false,
             "gift_name": "",
             "gift_last_buy_date": "",
@@ -689,7 +650,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         }
@@ -700,17 +661,17 @@
             "name": "兆豐金",
             "is_niche_stable": false,
             "listed_count": 5,
-            "latest_price": 49.55,
-            "avg_vol_20d_sheets": 35236.0,
-            "dividend_yield_pct": 3.53,
+            "latest_price": 51.7,
+            "avg_vol_20d_sheets": 30611.0,
+            "dividend_yield_pct": 3.38,
             "dividend_amount": 1.75,
-            "beta": 0.0849,
+            "beta": 0.0757,
             "avg_fill_dividend_days": 1.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 2.35,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMi7ARBVV95cUxNMnVQMU5EM3NsZ1ZxRExvVlZGZHAwcEV6amZ3d2lIb1RDRUk4WVY2Nzk3TV94VnQwczkyNm8tSUFJWW9KQzdVNTRHNGtTM2oxT2xyUmgyd3RfNk44d3pwS3lHU3ExNnVBenU3X1pjOTZ4VU03YURfckVHRWVObW51dUVnbXNyc1ZoNF85QllpbWxHdzRocmNWckhpb2dESmMxVmpZUEl1cFJCaGxsQXJFdmllU3pKT0wzRHFwVERJQkNKb203OE01T28wbGxENkwzaGNkQldtRDVsMGJrY2hEM2JxRFNsbWc4UWhPd1M4dkxSeTBzcXpGSTZPMHB4REd5NzlCeXJodUJKQVg5UFdCWGRadXhGMVFpY0hXbFExc2p4OXA1U3pZemJnRkpFVkxGQ0xLS1doTFk3bDFNVlI1dXpYRkFkSlN5Z2J2SWZHX1h5aGd2N29UcDhnVkZzSC1lZDRJSXhpdTNXOWpnVHdtVzhOSGxTdjZaZlJTajRzdW1vM2NJN1hLZmlWZDJnX25leVdHTFV6M1htNFgtZXJWTkJVckZuM2JKaVVmQjQxdUpZY1NzT25QYlJ1OEUxQ2ZIei1uaTVKcHBIWm45NVBzUmJWNkxRMFdDOV9nR3NRRUNsQUtkUmZMMjlzUzRCal9aek82N01xeV9ueUxGNmpMQ1RreU8xal9YVzd3RUVOaU5Bc0M2d2Y2Tk5KYkFnUDNGVWYxcEZIZ0ttZGc1TVRJdlRWdmN5V0QzcDJJemZLOENKNWVDUzBDaXVHUVFaNzI1NHo0NzJGZC1pdHN6MG5CM3R2b01oT21meGJ1eg?oc=5",
+            "google_news_url": "https://tw.stock.yahoo.com/quote/2886/news",
             "is_0050": true,
             "is_financial_holding": true,
             "is_super_yield": false,
@@ -731,7 +692,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         },
@@ -740,17 +701,17 @@
             "name": "永豐金",
             "is_niche_stable": false,
             "listed_count": 5,
-            "latest_price": 42.85,
-            "avg_vol_20d_sheets": 24070.0,
-            "dividend_yield_pct": 2.57,
+            "latest_price": 43.7,
+            "avg_vol_20d_sheets": 25141.0,
+            "dividend_yield_pct": 2.52,
             "dividend_amount": 1.1,
-            "beta": 0.3804,
+            "beta": 0.3693,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 1,
             "is_dividend_spike": true,
             "last_year_eps": 1.656863,
             "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/2890/news",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPYTl5X2JpX1BJV2lxemdaQVM3T3RTUWN4bmtKSDFXbDRxZzNib3hqWUJtZHRJSVlZTjdiSWxCdGMyWS1uQTBqYmRCVlVZWU9xbkVDN01DYTIzQzZFcVQtcUJFNWpRVXIxZExYS2xuN2Z6Z1hpZWQ1M0JicDBCaG9RVFV4aTkyU3c4akFxOU9KN25xcG9ySXdvWHhJUEtKTlNIMHRQNTNueldWVTAta1VGOHUzZFI5WHFORVhUSFltT3hRNmM1TzIyajJua3plU1pmb01BdG81dkJFc1JVc1ZWV2Y4UEdhTVZVd2FoX1VTekhmd0MxQnN5NlNSNElnUzcwUklSV2VUZEtVbkxZMTdReVA1MnRheV9zVFFlLWkzV0pmeWdrQm02WU40WkkxOXBQelJZWEdNanltRnhNTm92engtTQ?oc=5",
             "is_0050": true,
             "is_financial_holding": true,
             "is_super_yield": false,
@@ -771,7 +732,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false,
             "has_souvenir": true,
@@ -783,17 +744,17 @@
             "name": "第一金",
             "is_niche_stable": false,
             "listed_count": 5,
-            "latest_price": 37.3,
-            "avg_vol_20d_sheets": 40922.0,
-            "dividend_yield_pct": 3.49,
+            "latest_price": 38.9,
+            "avg_vol_20d_sheets": 36637.0,
+            "dividend_yield_pct": 3.34,
             "dividend_amount": 1.3,
-            "beta": 0.1672,
+            "beta": 0.1549,
             "avg_fill_dividend_days": 7.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 1.87,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxOVzhtV3JZbkNsRTVHRFluMzIyUEhad05Ocm1pZktZUEw0TDZtWEdpN0ZSa1VkQXludnJ3dllnQ3dSdU5hOTlpWHo2XzdtUGl2NEJhX0t6cGV6V3pTM1I1eWhDVng1TWdlWGlwNjJxM1RjX3gyNmhPcTdVaUdPNHZ5cENGcmFKNkFkb1NBOVlmeGFsaE5IU09pR2o2QjBqbmRBdEZlLS1yS0stUUhvUjRSLUFiR3ZzcE9EUzNvMTlxTjY3QldraG03RUFFcWVnZ1VZaFA2Z0Y0Mm5leTFQZGIwcm03cjRYdnd6VGJQTk1JRkxUczBxWUxZY1VCRFdFSm9pZ3Q0Q2g2SG00VzRlS21SNUpkRTllZ0FqeGRObi1xdktjMzFWLTQwUDR1OE5sUkZGWHZZWmNWZktTbkplMXhIRGFzRQ?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxPRlFHaGlKSDlqcTR5bVpxZnJKcXNHTHMtcTh5SjQwRk5XWW9pUHNMX0d1YkpKVTFnWTRmZWR4YjJEblc2d3RfcGpYeTU4ZHlEZVM3RFZGMkZ3ek5vMElqLXRIN2xRVXFUUHJQNlk4dzl2eG83TEloZEN6YjBDcndJVGdxUWt6cEVBSUR1UlJEX01xZzVpVWdKWml1V3JiTjFxNjRZem1Wa28wVFdIM3N2TTBlZUFpVDE2YUktSHBnaUJKYzBLYnZOMmlvbkMyN0NNV2NSMkx1NU1jLTZ6Tlp1ei05OFRUZjdLVW10Z1RURV9oWE11LVdSNHFCQUhfMWZQUG9pbS1uS0g2dFM2eDBBTW1heE1scVZZTGo4SmFaaU9wX2NqTm9VLUhLckpWZzU4aURJMGJkMlM?oc=5",
             "is_0050": true,
             "is_financial_holding": true,
             "is_super_yield": false,
@@ -814,7 +775,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         },
@@ -823,17 +784,17 @@
             "name": "合庫金",
             "is_niche_stable": false,
             "listed_count": 5,
-            "latest_price": 26.65,
-            "avg_vol_20d_sheets": 22737.0,
-            "dividend_yield_pct": 3.0,
+            "latest_price": 27.2,
+            "avg_vol_20d_sheets": 20602.0,
+            "dividend_yield_pct": 2.94,
             "dividend_amount": 0.8,
-            "beta": 0.1242,
+            "beta": 0.1157,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 1.23,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMi2ANBVV95cUxQblkzMDZmbXpVVExQc0RBQThZbW9WQlRlR29pdy1VbUVhQXpFX1VUREVNTzZBYThrc0xZSnVIbkhCX2dFMzMxOUd2ZzNScmEzRHJfWURGQkhvZmZORW51Y1FzQ0RHWWc0RzlZempvZUVSMVU5ckR3OEZTblpyRV81dUNZbEJORzd6RnJOREROVm5acGZpdlVtYm80T0RPS1BDd01uOVB2VndGMEZqYUNJOTR0X21UMnVpQXRzNGN5aHZUZXVSYnU1azFhd0RkNlJneGE0dFJ6VU9od3RwLTlKQUM4MXZkQlZxWkE4VU50SVE1dG5pd0liWi13T285VTE2bGhDQUQzSWZlUDRXa0ZUY2dLWFJCYTFaQmtFcWRQdFJYZHpBcW5Cb2dkYjdGZzNJdmJucjBwcHZTS19ZS1AzOHVzN0FWRDg1ZC1KX3NpU19qUGt5QTdOVFJtZTNRYWZwVWJtR3R0THBiMW14YzFnU0VDNXA0WVhqWkpiOHllMks4SE1TeVRCYnVTV2ZvMk92QUVZWEVDZUJwSzJTd24wUnRyWjFrT3Zla01aYnktVmVPcEJIZ0hzVkRLM05WVGR5VmtGcTd2NWZISW5GWXhZM3BnTlRHSjVC?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQWkdfQnJwanhaV3FKZ19yNk9LTVNUUHM2QzVTU05pOGh5b2FfYUxCbEFDZTRFb2RkZW5rVEZjcGs3QkYybTk5QlUyVE9pdVd3cnpRRFd2enJ3ZkRlU3YybGNJOFdIRldTOTFvSElkRGNkTDRrNzJPWlBvV2Z6N0htZ1N5M1l5STFlNTlRUHRBN2ZsSV82V2p3Y0hCU09YYlI4NHVBWm9kanVQek5ySnFIMWIwT1NuVTRMVUpzVU1iMUFVdWl0U2ZTN18yX3JxdnRuQ08zRHpIdmVMWlY3T1BPNHdwdGUwOTJPMDRnYk9MeXBuTW1ia3VoXzR1RGQtMzFOeDRDeFFfbG40R2FLb3FTV3pFME5hODFxS015WmJrbkYtU3hjdG8tWUhtTDZ1anJKYVNfNHpmMC1CX1BBR1VHV1RoUEoxRWNpLTRZZWpJZFMxdTVJaGlWWGhn?oc=5",
             "is_0050": true,
             "is_financial_holding": true,
             "is_super_yield": false,
@@ -854,7 +815,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false
         }
@@ -862,44 +823,6 @@
     "souvenir_stocks": [],
     "warning_stocks": [],
     "recent_dropped_stocks": [
-        {
-            "symbol": "6776",
-            "name": "展碁國際",
-            "is_niche_stable": true,
-            "listed_count": 0,
-            "latest_price": 54.6,
-            "avg_vol_20d_sheets": 213.0,
-            "dividend_yield_pct": 5.49,
-            "dividend_amount": 3.0,
-            "beta": 0.5181,
-            "avg_fill_dividend_days": 0.0,
-            "failed_fill_count": 0,
-            "is_dividend_spike": false,
-            "last_year_eps": 4.2,
-            "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/6776/news",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": true,
-            "is_outlier_warning": false,
-            "is_long_dividend": false,
-            "has_volatility_warning": false,
-            "pure_eps_ratio_avg": 100.0,
-            "capital_event": "股本大幅變動 (+10.2%)",
-            "major_news_event": false,
-            "gift_name": "",
-            "gift_last_buy_date": "",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-08"
-            ],
-            "last_hit_date": "2026-08-01",
-            "warning_status": "",
-            "is_returning": true,
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)",
-            "drop_date": "2026-08-08"
-        },
         {
             "symbol": "9908",
             "name": "大台北",
@@ -1178,126 +1101,6 @@
             "drop_date": "2026-09-05"
         },
         {
-            "symbol": "2535",
-            "name": "達欣工",
-            "is_niche_stable": true,
-            "listed_count": 0,
-            "latest_price": 91.5,
-            "avg_vol_20d_sheets": 350.0,
-            "dividend_yield_pct": 5.03,
-            "dividend_amount": 4.6,
-            "beta": 0.3365,
-            "avg_fill_dividend_days": 0.5,
-            "failed_fill_count": 0,
-            "is_dividend_spike": false,
-            "last_year_eps": 6.5,
-            "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHeG9EUE92d1hmXzhLUW1HR004LUZLNkoxWDl2djB3NmxtdGhuVm12UDBvTE03SXNtamhhZUlCREU3WENpZGx6RnMxdkswczVPWFhueUZKMDh0UdIBX0FVX3lxTE41My1ucTlEaFhheVpvblhBZV9qWV94Tng5c0lid3k1TDJ6RjVjQUNDUERqbi1TRXZzRmtDZ29sRzVKbjEyUTJpZEd5cW9WaEowRUZIdVlGZUNmYVVmbU1z?oc=5",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": true,
-            "is_outlier_warning": false,
-            "is_long_dividend": true,
-            "has_volatility_warning": false,
-            "pure_eps_ratio_avg": 100.0,
-            "capital_event": "",
-            "major_news_event": false,
-            "gift_name": "BLACK HAMMER耐熱玻璃法式濾壓壺 參考圖",
-            "gift_last_buy_date": "2026-04-08",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-05",
-                "2026-06",
-                "2026-07",
-                "2026-08"
-            ],
-            "last_hit_date": "2026-08-29",
-            "warning_status": "",
-            "is_returning": false,
-            "has_souvenir": true,
-            "souvenir_title": "BLACK HAMMER耐熱玻璃法式濾壓壺 參考圖",
-            "souvenir_last_buy_date": "2026-04-08",
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)",
-            "drop_date": "2026-09-05"
-        },
-        {
-            "symbol": "2912",
-            "name": "統一超",
-            "is_niche_stable": false,
-            "listed_count": 0,
-            "latest_price": 220.5,
-            "avg_vol_20d_sheets": 2320.0,
-            "dividend_yield_pct": 4.08,
-            "dividend_amount": 9.0,
-            "beta": -0.0301,
-            "avg_fill_dividend_days": 0.0,
-            "failed_fill_count": 0,
-            "is_dividend_spike": false,
-            "last_year_eps": 10.78,
-            "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNaTZqNng0TDAtZVBXdG9PVmdZQXhudUZMVUdJY3pUSGE2MEQxRGExUkpuX2I0Ul9JbnpVYUVKM0FCVmdZSDQ3dEVVMmhYM1o0dU1ubUZIbnVJU0JkUTlma0ZhRm5uUFpZS0ExMi03WDVZMzhtQ2RnODdFdWRJUzBIMzNqOUh6cUNYR0t0NWdXTXBTX3JEa3BoVG5PbmRkYWNNY1B2NHpWVEZWNE9oSjlSdVVsWmhPRVVPY2lyRGUyemlWd1V2QlNGSm9HajB0MUlfSmNLRHM2Qy01ZVYwNVo0QzlueVFTS1kxSXo2a2Y0dDdtZ0luS2M3aDVuV0R6WGhkdkJrNW9hZ0VOZmNiUU5kZTliUGphSWxRSnJ2MU5VbGVFS0U?oc=5",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": false,
-            "is_outlier_warning": false,
-            "is_long_dividend": true,
-            "has_volatility_warning": false,
-            "pure_eps_ratio_avg": 99.7,
-            "capital_event": "",
-            "major_news_event": false,
-            "gift_name": "",
-            "gift_last_buy_date": "",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-08"
-            ],
-            "last_hit_date": "2026-08-29",
-            "warning_status": "",
-            "is_returning": false,
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)",
-            "drop_date": "2026-09-05"
-        },
-        {
-            "symbol": "3673",
-            "name": "TPK-KY",
-            "is_niche_stable": false,
-            "listed_count": 0,
-            "latest_price": 67.5,
-            "avg_vol_20d_sheets": 5112.0,
-            "dividend_yield_pct": 2.67,
-            "dividend_amount": 1.8,
-            "beta": 0.9437,
-            "avg_fill_dividend_days": 0.0,
-            "failed_fill_count": 0,
-            "is_dividend_spike": true,
-            "last_year_eps": 2.71,
-            "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/3673/news",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": false,
-            "is_outlier_warning": false,
-            "is_long_dividend": false,
-            "has_volatility_warning": true,
-            "pure_eps_ratio_avg": 64.2,
-            "capital_event": "",
-            "major_news_event": false,
-            "gift_name": "",
-            "gift_last_buy_date": "",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-08"
-            ],
-            "last_hit_date": "2026-08-29",
-            "warning_status": "",
-            "is_returning": false,
-            "reason": "趨勢未達成長股動能標準 (均線未呈多頭排列)",
-            "drop_date": "2026-09-05"
-        },
-        {
             "symbol": "4536",
             "name": "拓凱",
             "is_niche_stable": true,
@@ -1333,123 +1136,6 @@
             "warning_status": "",
             "is_returning": false,
             "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 174 張)",
-            "drop_date": "2026-09-05"
-        },
-        {
-            "symbol": "5876",
-            "name": "上海商銀",
-            "is_niche_stable": false,
-            "listed_count": 0,
-            "latest_price": 43.05,
-            "avg_vol_20d_sheets": 6221.0,
-            "dividend_yield_pct": 4.18,
-            "dividend_amount": 1.8,
-            "beta": 0.0263,
-            "avg_fill_dividend_days": 2.0,
-            "failed_fill_count": 1,
-            "is_dividend_spike": false,
-            "last_year_eps": 3.06,
-            "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNb3oxOGlTWHd2aUNyRkF0QTFjSXdLNWUyUl9HQ2o2U1pHamthcFFQaHozaWRsMkl5bmwxTGtVQUdrblFKcmZ4dEUxcTdiV3Z2QXhZRDhMVDNQaGI0VFNiYmsyUGxCbzhXSGJkZWFBZzJWdWpKeVE1RlhiN1VLVzZxRXgtbFBhRzVUczVsanlBNkpGN0E1OE9tUTlBejA1UkpRd2hIQUhsTUhEY2xBOEZyam9zeGZRRlpyQ1BFSVZJblRXdmxHZG1BcUZ6b0lPNDJma29HaUJ4ZXZQaEFjVmQ3TGc4akRTcE1hWmpySWVJWDc4SmJYVXRmR19Na0N5eU9HSXBCd2VLa3Y5bDlMVFRBcXNEaExtdGNPNk9OSA?oc=5",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": false,
-            "is_outlier_warning": true,
-            "is_long_dividend": true,
-            "has_volatility_warning": false,
-            "pure_eps_ratio_avg": 100.0,
-            "capital_event": "",
-            "major_news_event": false,
-            "gift_name": "",
-            "gift_last_buy_date": "",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-08"
-            ],
-            "last_hit_date": "2026-08-29",
-            "warning_status": "",
-            "is_returning": false,
-            "reason": "處於模糊地帶：未符合四大名單的入選資格",
-            "drop_date": "2026-09-05"
-        },
-        {
-            "symbol": "6691",
-            "name": "洋基工程",
-            "is_niche_stable": false,
-            "listed_count": 0,
-            "latest_price": 625.0,
-            "avg_vol_20d_sheets": 736.0,
-            "dividend_yield_pct": 3.36,
-            "dividend_amount": 21.0,
-            "beta": 0.8242,
-            "avg_fill_dividend_days": 6.0,
-            "failed_fill_count": 0,
-            "is_dividend_spike": true,
-            "last_year_eps": 24.76,
-            "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/6691/news",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": true,
-            "is_outlier_warning": false,
-            "is_long_dividend": false,
-            "has_volatility_warning": true,
-            "pure_eps_ratio_avg": 93.4,
-            "capital_event": "股本大幅變動 (+10.0%)",
-            "major_news_event": false,
-            "gift_name": "",
-            "gift_last_buy_date": "",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-08"
-            ],
-            "last_hit_date": "2026-08-29",
-            "warning_status": "",
-            "is_returning": true,
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)",
-            "drop_date": "2026-09-05"
-        },
-        {
-            "symbol": "8422",
-            "name": "可寧衛*",
-            "is_niche_stable": false,
-            "listed_count": 0,
-            "latest_price": 27.0,
-            "avg_vol_20d_sheets": 5128.0,
-            "dividend_yield_pct": 4.44,
-            "dividend_amount": 1.2,
-            "beta": 0.505,
-            "avg_fill_dividend_days": 0.0,
-            "failed_fill_count": 0,
-            "is_dividend_spike": false,
-            "last_year_eps": 1.29,
-            "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiygNBVV95cUxOX2JvX241ZGRHUVBaQ1M5aFN5V1hDZTIzeEttbEZJS21XYWNyMVZLMzhyMjFyMzRObTJNdGllY3ZYSHh4QThRSy1pX2ZTTVZwcFB1bGJ2U0hEMDFidHFCU0JtYVhmY0o4X1hkRVZfWG05WGYxVHdmdDdXMmI1SnNyVzhzOGFqU3loYS1zNTVfNG54OXFtYlRNU2d6cHJiWmxFcm9JMXIxT3gxTEktVTg0ZWVXbmRBNW5zcDNOZGNjemhLbTljOGdMcG9YZHhTYjNHYTBQQUpUSUhDZjF4MFBtcGFIVUNDM3VCV1pteE9DeWVBTjlJZFgtaDRidGl2WjZ0RGRBSXk1bVc5c0x6U1V1QmxMcUFORmdYNGhKWVNfMWxscEZXU1RaYzJIbVdsRFcxZXljQmVZeF9raGlLTnVDcU9QWDVpc19oVllHMWxOOG5LWUNWREgwUk9hUVZ6YWdLY0NpNlBOM1dHNGh3TG05dk8tWFRFWHJ3ZlBXRVFqWTZtWGpZUHhJZUFjbVJTMDUycDVtT0VhcXVfdm0xcGxqUGVkai1aYzI3cFRlLWs2dDZsUmJDb1NqcDVIeXV6dTVrekc3M3JwYk4xZw?oc=5",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": true,
-            "is_outlier_warning": false,
-            "is_long_dividend": true,
-            "has_volatility_warning": false,
-            "pure_eps_ratio_avg": 100.0,
-            "capital_event": "股本大幅變動 (+19.4%)",
-            "major_news_event": false,
-            "gift_name": "超商50元商品卡 參考圖",
-            "gift_last_buy_date": "2026-03-25",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-08"
-            ],
-            "last_hit_date": "2026-08-29",
-            "warning_status": "",
-            "is_returning": false,
-            "has_souvenir": true,
-            "souvenir_title": "超商50元商品卡 參考圖",
-            "souvenir_last_buy_date": "2026-03-25",
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)",
             "drop_date": "2026-09-05"
         },
         {
@@ -1489,6 +1175,129 @@
             "is_returning": false,
             "reason": "短中期趨勢走弱 (股價跌破月線與季線)",
             "drop_date": "2026-09-05"
+        },
+        {
+            "symbol": "1737",
+            "name": "臺鹽",
+            "is_niche_stable": true,
+            "listed_count": 0,
+            "latest_price": 30.65,
+            "avg_vol_20d_sheets": 245.0,
+            "dividend_yield_pct": 4.57,
+            "dividend_amount": 1.4,
+            "beta": 0.0318,
+            "avg_fill_dividend_days": 0.0,
+            "failed_fill_count": 0,
+            "is_dividend_spike": false,
+            "last_year_eps": 2.0,
+            "recent_news_alert": true,
+            "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjd3Z6UmRXTHJqb3hoczB1d0l0TlJVajVkdGpBQm56WlFqRTB5ODMtdko4dHFuQUNrczVKdjV4WGh3bFdFbnN6OG9Pc2U4STg?oc=5",
+            "is_0050": false,
+            "is_financial_holding": false,
+            "is_super_yield": false,
+            "is_fast_fill": false,
+            "is_outlier_warning": false,
+            "is_long_dividend": true,
+            "has_volatility_warning": false,
+            "pure_eps_ratio_avg": 100.0,
+            "capital_event": "",
+            "major_news_event": false,
+            "gift_name": "台塩 生技UP機能吸凍1盒 參考圖",
+            "gift_last_buy_date": "2026-04-22",
+            "is_evergreen": false,
+            "history_hits": [
+                "2026-08",
+                "2026-09"
+            ],
+            "last_hit_date": "2026-09-05",
+            "warning_status": "",
+            "is_returning": false,
+            "has_souvenir": true,
+            "souvenir_title": "台塩 生技UP機能吸凍1盒 參考圖",
+            "souvenir_last_buy_date": "2026-04-22",
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)",
+            "drop_date": "2026-09-12"
+        },
+        {
+            "symbol": "2312",
+            "name": "金寶",
+            "is_niche_stable": false,
+            "listed_count": 0,
+            "latest_price": 32.85,
+            "avg_vol_20d_sheets": 12780.0,
+            "dividend_yield_pct": 1.83,
+            "dividend_amount": 0.6,
+            "beta": 1.0608,
+            "avg_fill_dividend_days": 1.0,
+            "failed_fill_count": 0,
+            "is_dividend_spike": true,
+            "last_year_eps": 1.05,
+            "recent_news_alert": true,
+            "google_news_url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPT0hncDRPQTdIaV9kMmh3aFZERmk5N2dqZjE5bGtySXJHTWdkMXc5X1pjTTZBdWotbGhscXJIbjdnTGZfNnZwYWQ0UGIwazB2X185REZuUzhnbTBxUDBIQW8wLXhwTkI2MzRxUUdTa0pUQVBtT2RBN19GaHJ5bzk5Mjh0SDNyTVZDMTZOWGxZVTU4OWUzU01wbnkydUFlY2RKT3V1UjQ5NUxCazU2dnN4bTFYTjJlVDJQRm8xeEw2RWxUeWw0cjVIbHVfaXdBZnRpRmJXOU0wV28yVWt2empRbE1yNk00a09ZdWthRVhrdDZ0TVFzdXpNS1A5VUVfdGZlTmduQ1RxMXViVm5RdkM1djFlalE3bVhXTTEzYnVMeDFMTi1GMTRtZTktdERON0NyQUdkOFJOY1lkdUJBN0hQYWktOXAxU0F3Y1JYamVqdGpMaVh3U0pRZjVfTF8zMmtxVVpoNlc2M0ticF9zcjN4Z2JDWFc0SFlSSXNKMjBtck5oNEJOaWNKR1VTUzdHTXUwcHM5WXZ1akNHSk95OEljTTM0M19lb01xRGM0dFZTQVh1d0NHY25lVlJpM2J3QQ?oc=5",
+            "is_0050": false,
+            "is_financial_holding": false,
+            "is_super_yield": false,
+            "is_fast_fill": true,
+            "is_outlier_warning": false,
+            "is_long_dividend": true,
+            "has_volatility_warning": true,
+            "pure_eps_ratio_avg": 95.0,
+            "capital_event": "",
+            "major_news_event": false,
+            "gift_name": "再生布卡夾 參考圖",
+            "gift_last_buy_date": "2026-03-24",
+            "is_evergreen": false,
+            "history_hits": [
+                "2026-09"
+            ],
+            "last_hit_date": "2026-09-05",
+            "warning_status": "",
+            "is_returning": false,
+            "has_souvenir": true,
+            "souvenir_title": "再生布卡夾 參考圖",
+            "souvenir_last_buy_date": "2026-03-24",
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)",
+            "drop_date": "2026-09-12"
+        },
+        {
+            "symbol": "9925",
+            "name": "新保",
+            "is_niche_stable": false,
+            "listed_count": 0,
+            "latest_price": 39.55,
+            "avg_vol_20d_sheets": 1270.0,
+            "dividend_yield_pct": 5.06,
+            "dividend_amount": 2.0,
+            "beta": 0.009,
+            "avg_fill_dividend_days": 0.0,
+            "failed_fill_count": 0,
+            "is_dividend_spike": false,
+            "last_year_eps": 2.37,
+            "recent_news_alert": true,
+            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xaWtld2FheGtCSjgwalR0VG1oaFNCNWktZDhRQ3VqMll0d3g0TktJeWI5MkVEeElRZkFMNmhiUXdGQm9rVVdXX29FZGpiLXRNdkJV?oc=5",
+            "is_0050": false,
+            "is_financial_holding": false,
+            "is_super_yield": false,
+            "is_fast_fill": true,
+            "is_outlier_warning": false,
+            "is_long_dividend": true,
+            "has_volatility_warning": false,
+            "pure_eps_ratio_avg": 100.0,
+            "capital_event": "",
+            "major_news_event": false,
+            "gift_name": "",
+            "gift_last_buy_date": "",
+            "is_evergreen": false,
+            "history_hits": [
+                "2026-07",
+                "2026-08",
+                "2026-09"
+            ],
+            "last_hit_date": "2026-09-05",
+            "warning_status": "",
+            "is_returning": false,
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)",
+            "drop_date": "2026-09-12"
         }
     ],
     "processed_symbols": [
@@ -1624,6 +1433,7 @@
         "1541",
         "1558",
         "1560",
+        "1563",
         "1568",
         "1582",
         "1583",
@@ -1764,7 +1574,6 @@
         "2314",
         "2316",
         "2317",
-        "2321",
         "2323",
         "2324",
         "2327",
@@ -2078,7 +1887,6 @@
         "3321",
         "3338",
         "3346",
-        "3356",
         "3376",
         "3380",
         "3406",
@@ -2109,7 +1917,6 @@
         "3576",
         "3583",
         "3588",
-        "3591",
         "3592",
         "3593",
         "3596",
@@ -2437,6 +2244,7 @@
         "6937",
         "6944",
         "6947",
+        "6949",
         "6951",
         "6952",
         "6955",
@@ -2622,7 +2430,7 @@
         {
             "symbol": "1203",
             "name": "味王",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 18 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 17 張)"
         },
         {
             "symbol": "1210",
@@ -2632,7 +2440,7 @@
         {
             "symbol": "1213",
             "name": "大飲",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 28 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 22 張)"
         },
         {
             "symbol": "1215",
@@ -2642,7 +2450,7 @@
         {
             "symbol": "1216",
             "name": "統一",
-            "reason": "處於模糊地帶：未符合四大名單的入選資格"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "1217",
@@ -2662,12 +2470,12 @@
         {
             "symbol": "1220",
             "name": "台榮",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 93 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 96 張)"
         },
         {
             "symbol": "1225",
             "name": "福懋油",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 114 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 109 張)"
         },
         {
             "symbol": "1227",
@@ -2687,32 +2495,32 @@
         {
             "symbol": "1232",
             "name": "大統益",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 146 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 110 張)"
         },
         {
             "symbol": "1233",
             "name": "天仁",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 24 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 25 張)"
         },
         {
             "symbol": "1234",
             "name": "黑松",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 88 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 81 張)"
         },
         {
             "symbol": "1235",
             "name": "興泰",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 18 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
         },
         {
             "symbol": "1236",
             "name": "宏亞",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 100 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 66 張)"
         },
         {
             "symbol": "1256",
             "name": "鮮活果汁-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 73 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 75 張)"
         },
         {
             "symbol": "1301",
@@ -2772,7 +2580,7 @@
         {
             "symbol": "1315",
             "name": "達新",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 59 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 57 張)"
         },
         {
             "symbol": "1316",
@@ -2787,22 +2595,22 @@
         {
             "symbol": "1321",
             "name": "大洋",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 135 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 113 張)"
         },
         {
             "symbol": "1323",
             "name": "永裕",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 66 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 31 張)"
         },
         {
             "symbol": "1324",
             "name": "地球",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 23 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 21 張)"
         },
         {
             "symbol": "1325",
             "name": "恆大",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 194 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 166 張)"
         },
         {
             "symbol": "1326",
@@ -2817,27 +2625,27 @@
         {
             "symbol": "1338",
             "name": "廣華-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 84 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 65 張)"
         },
         {
             "symbol": "1339",
             "name": "昭輝",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 134 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 106 張)"
         },
         {
             "symbol": "1340",
             "name": "勝悅-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 146 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 111 張)"
         },
         {
             "symbol": "1341",
             "name": "富林-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 8 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 4 張)"
         },
         {
             "symbol": "1342",
             "name": "八貫",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 160 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 140 張)"
         },
         {
             "symbol": "1402",
@@ -2852,12 +2660,12 @@
         {
             "symbol": "1410",
             "name": "南染",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 90 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 111 張)"
         },
         {
             "symbol": "1413",
             "name": "宏洲",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
         },
         {
             "symbol": "1414",
@@ -2867,17 +2675,17 @@
         {
             "symbol": "1417",
             "name": "嘉裕",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 118 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 123 張)"
         },
         {
             "symbol": "1418",
             "name": "東華",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 11 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 15 張)"
         },
         {
             "symbol": "1419",
             "name": "新紡",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 95 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 97 張)"
         },
         {
             "symbol": "1423",
@@ -2887,7 +2695,7 @@
         {
             "symbol": "1432",
             "name": "大魯閣",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 82 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 72 張)"
         },
         {
             "symbol": "1434",
@@ -2897,27 +2705,27 @@
         {
             "symbol": "1435",
             "name": "中福",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 14 張)"
         },
         {
             "symbol": "1436",
             "name": "華友聯",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 138 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 122 張)"
         },
         {
             "symbol": "1437",
             "name": "勤益控",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 142 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 107 張)"
         },
         {
             "symbol": "1438",
             "name": "三地開發",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 31 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 54 張)"
         },
         {
             "symbol": "1439",
             "name": "雋揚",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 44 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 37 張)"
         },
         {
             "symbol": "1440",
@@ -2927,17 +2735,17 @@
         {
             "symbol": "1441",
             "name": "大東",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 10 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
         },
         {
             "symbol": "1442",
             "name": "名軒",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 157 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 162 張)"
         },
         {
             "symbol": "1443",
             "name": "立益物流",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 13 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 15 張)"
         },
         {
             "symbol": "1444",
@@ -2947,12 +2755,12 @@
         {
             "symbol": "1445",
             "name": "大宇",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 74 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 70 張)"
         },
         {
             "symbol": "1446",
             "name": "宏和",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 127 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 111 張)"
         },
         {
             "symbol": "1447",
@@ -2967,22 +2775,22 @@
         {
             "symbol": "1451",
             "name": "年興",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 88 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 75 張)"
         },
         {
             "symbol": "1452",
             "name": "宏益",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 80 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 73 張)"
         },
         {
             "symbol": "1453",
             "name": "大將",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 43 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
         },
         {
             "symbol": "1454",
             "name": "台富",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 24 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 35 張)"
         },
         {
             "symbol": "1455",
@@ -2992,27 +2800,27 @@
         {
             "symbol": "1456",
             "name": "怡華",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 62 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 152 張)"
         },
         {
             "symbol": "1457",
             "name": "宜進",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 95 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 80 張)"
         },
         {
             "symbol": "1459",
             "name": "聯發",
-            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 154 張)"
         },
         {
             "symbol": "1460",
             "name": "宏遠",
-            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 200 張)"
         },
         {
             "symbol": "1463",
             "name": "強盛新",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 41 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 40 張)"
         },
         {
             "symbol": "1464",
@@ -3022,7 +2830,7 @@
         {
             "symbol": "1465",
             "name": "偉全",
-            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 199 張)"
         },
         {
             "symbol": "1466",
@@ -3037,7 +2845,7 @@
         {
             "symbol": "1468",
             "name": "昶和",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 69 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 72 張)"
         },
         {
             "symbol": "1470",
@@ -3052,22 +2860,22 @@
         {
             "symbol": "1472",
             "name": "三洋實業",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
         },
         {
             "symbol": "1473",
             "name": "台南",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 45 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
         },
         {
             "symbol": "1474",
             "name": "弘裕",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 60 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 63 張)"
         },
         {
             "symbol": "1475",
             "name": "業旺",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 21 張)"
         },
         {
             "symbol": "1476",
@@ -3092,12 +2900,12 @@
         {
             "symbol": "1506",
             "name": "正道",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 187 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 181 張)"
         },
         {
             "symbol": "1512",
             "name": "瑞利",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 67 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 58 張)"
         },
         {
             "symbol": "1513",
@@ -3117,7 +2925,7 @@
         {
             "symbol": "1516",
             "name": "川飛",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 18 張)"
         },
         {
             "symbol": "1517",
@@ -3132,7 +2940,7 @@
         {
             "symbol": "1521",
             "name": "大億",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 17 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 16 張)"
         },
         {
             "symbol": "1522",
@@ -3147,7 +2955,7 @@
         {
             "symbol": "1525",
             "name": "江申",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 17 張)"
         },
         {
             "symbol": "1526",
@@ -3157,7 +2965,7 @@
         {
             "symbol": "1527",
             "name": "鑽全",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 127 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 118 張)"
         },
         {
             "symbol": "1528",
@@ -3172,7 +2980,7 @@
         {
             "symbol": "1530",
             "name": "亞崴",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 23 張)"
         },
         {
             "symbol": "1531",
@@ -3187,12 +2995,12 @@
         {
             "symbol": "1533",
             "name": "車王電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 112 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 88 張)"
         },
         {
             "symbol": "1535",
             "name": "中宇",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 37 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 38 張)"
         },
         {
             "symbol": "1536",
@@ -3202,42 +3010,47 @@
         {
             "symbol": "1537",
             "name": "廣隆",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 180 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 174 張)"
         },
         {
             "symbol": "1538",
             "name": "正峰",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 0 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 7 張)"
         },
         {
             "symbol": "1539",
             "name": "巨庭",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 41 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 24 張)"
         },
         {
             "symbol": "1540",
             "name": "喬福",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 134 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 103 張)"
         },
         {
             "symbol": "1541",
             "name": "錩泰",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 14 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 12 張)"
         },
         {
             "symbol": "1558",
             "name": "伸興",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 140 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 150 張)"
         },
         {
             "symbol": "1560",
             "name": "中砂",
-            "reason": "利息太低：最新殖利率僅 0.71% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.63% (未達 1.5% 基本門檻)"
+        },
+        {
+            "symbol": "1563",
+            "name": "巧新",
+            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
         },
         {
             "symbol": "1568",
             "name": "倉佑",
-            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 198 張)"
         },
         {
             "symbol": "1582",
@@ -3252,7 +3065,7 @@
         {
             "symbol": "1587",
             "name": "吉茂",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 155 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 144 張)"
         },
         {
             "symbol": "1590",
@@ -3272,12 +3085,12 @@
         {
             "symbol": "1603",
             "name": "華電",
-            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 146 張)"
         },
         {
             "symbol": "1604",
             "name": "聲寶",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 186 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 193 張)"
         },
         {
             "symbol": "1605",
@@ -3302,12 +3115,12 @@
         {
             "symbol": "1614",
             "name": "三洋電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 49 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 46 張)"
         },
         {
             "symbol": "1615",
             "name": "大山",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 143 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 88 張)"
         },
         {
             "symbol": "1616",
@@ -3327,17 +3140,17 @@
         {
             "symbol": "1623",
             "name": "大東電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 79 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 95 張)"
         },
         {
             "symbol": "1626",
             "name": "艾美特-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 68 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 70 張)"
         },
         {
             "symbol": "1702",
             "name": "南僑",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 162 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 140 張)"
         },
         {
             "symbol": "1707",
@@ -3387,11 +3200,11 @@
         {
             "symbol": "1720",
             "name": "生達",
-            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 199 張)"
         },
         {
             "symbol": "1721",
-            "name": "三晃",
+            "name": "國慶科技",
             "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
         },
         {
@@ -3407,7 +3220,7 @@
         {
             "symbol": "1725",
             "name": "元禎",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 33 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 36 張)"
         },
         {
             "symbol": "1726",
@@ -3417,27 +3230,27 @@
         {
             "symbol": "1727",
             "name": "中華化",
-            "reason": "利息太低：最新殖利率僅 0.16% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.17% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "1730",
             "name": "花仙子",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 36 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
         },
         {
             "symbol": "1731",
             "name": "美吾華",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 105 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 82 張)"
         },
         {
             "symbol": "1732",
             "name": "毛寶",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 127 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 95 張)"
         },
         {
             "symbol": "1733",
             "name": "五鼎",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 161 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 127 張)"
         },
         {
             "symbol": "1734",
@@ -3447,7 +3260,7 @@
         {
             "symbol": "1735",
             "name": "日勝化",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 89 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 75 張)"
         },
         {
             "symbol": "1736",
@@ -3455,39 +3268,44 @@
             "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
         },
         {
+            "symbol": "1737",
+            "name": "臺鹽",
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
+        },
+        {
             "symbol": "1752",
             "name": "南光",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 42 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 41 張)"
         },
         {
             "symbol": "1760",
             "name": "寶齡富錦",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 110 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 113 張)"
         },
         {
             "symbol": "1762",
             "name": "中化生",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 155 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 106 張)"
         },
         {
             "symbol": "1773",
             "name": "勝一",
-            "reason": "處於模糊地帶：未符合四大名單的入選資格"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "1776",
             "name": "展宇",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 54 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 44 張)"
         },
         {
             "symbol": "1783",
             "name": "和康生",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 86 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 72 張)"
         },
         {
             "symbol": "1786",
             "name": "科妍",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 178 張)"
+            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
         },
         {
             "symbol": "1789",
@@ -3507,7 +3325,7 @@
         {
             "symbol": "1805",
             "name": "寶徠",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 65 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 69 張)"
         },
         {
             "symbol": "1806",
@@ -3532,12 +3350,12 @@
         {
             "symbol": "1817",
             "name": "凱撒衛",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 67 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 52 張)"
         },
         {
             "symbol": "1903",
             "name": "士紙",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 107 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 99 張)"
         },
         {
             "symbol": "1904",
@@ -3552,7 +3370,7 @@
         {
             "symbol": "1906",
             "name": "寶隆",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 122 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 70 張)"
         },
         {
             "symbol": "1907",
@@ -3572,12 +3390,12 @@
         {
             "symbol": "2007",
             "name": "燁興",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 183 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 171 張)"
         },
         {
             "symbol": "2008",
             "name": "高興昌",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 21 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
         },
         {
             "symbol": "2009",
@@ -3597,7 +3415,7 @@
         {
             "symbol": "2013",
             "name": "中鋼構",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 75 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 64 張)"
         },
         {
             "symbol": "2014",
@@ -3607,7 +3425,7 @@
         {
             "symbol": "2015",
             "name": "豐興",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 192 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 163 張)"
         },
         {
             "symbol": "2017",
@@ -3632,7 +3450,7 @@
         {
             "symbol": "2024",
             "name": "志聯",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 11 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 12 張)"
         },
         {
             "symbol": "2025",
@@ -3647,7 +3465,7 @@
         {
             "symbol": "2028",
             "name": "威致",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 85 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 80 張)"
         },
         {
             "symbol": "2029",
@@ -3682,22 +3500,22 @@
         {
             "symbol": "2038",
             "name": "海光",
-            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 173 張)"
         },
         {
             "symbol": "2049",
             "name": "上銀",
-            "reason": "利息太低：最新殖利率僅 0.55% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.56% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "2059",
             "name": "川湖",
-            "reason": "利息太低：最新殖利率僅 0.37% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.42% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "2062",
             "name": "橋椿",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 129 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 181 張)"
         },
         {
             "symbol": "2069",
@@ -3717,7 +3535,7 @@
         {
             "symbol": "2102",
             "name": "泰豐",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 189 張)"
+            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
         },
         {
             "symbol": "2103",
@@ -3752,12 +3570,12 @@
         {
             "symbol": "2114",
             "name": "鑫永銓",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 29 張)"
         },
         {
             "symbol": "2115",
             "name": "六暉-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 74 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 73 張)"
         },
         {
             "symbol": "2201",
@@ -3792,12 +3610,12 @@
         {
             "symbol": "2227",
             "name": "裕日車",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 33 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
         },
         {
             "symbol": "2228",
             "name": "劍麟",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 121 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 104 張)"
         },
         {
             "symbol": "2231",
@@ -3812,17 +3630,17 @@
         {
             "symbol": "2236",
             "name": "百達-KY",
-            "reason": "利息太低：最新殖利率僅 0.26% (未達 1.5% 基本門檻)"
+            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
         },
         {
             "symbol": "2237",
             "name": "華德動能-創",
-            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 181 張)"
         },
         {
             "symbol": "2239",
             "name": "英利-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 47 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 33 張)"
         },
         {
             "symbol": "2241",
@@ -3837,17 +3655,17 @@
         {
             "symbol": "2247",
             "name": "汎德永業",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 28 張)"
         },
         {
             "symbol": "2248",
             "name": "華勝-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 103 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 87 張)"
         },
         {
             "symbol": "2250",
             "name": "IKKA-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 61 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 55 張)"
         },
         {
             "symbol": "2254",
@@ -3882,7 +3700,12 @@
         {
             "symbol": "2308",
             "name": "台達電",
-            "reason": "利息太低：最新殖利率僅 0.64% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.72% (未達 1.5% 基本門檻)"
+        },
+        {
+            "symbol": "2312",
+            "name": "金寶",
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "2313",
@@ -3892,22 +3715,17 @@
         {
             "symbol": "2314",
             "name": "台揚",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 123 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 109 張)"
         },
         {
             "symbol": "2316",
             "name": "楠梓電",
-            "reason": "利息太低：最新殖利率僅 1.29% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.27% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "2317",
             "name": "鴻海",
             "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
-        },
-        {
-            "symbol": "2321",
-            "name": "東訊",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 11 張)"
         },
         {
             "symbol": "2323",
@@ -3977,7 +3795,7 @@
         {
             "symbol": "2345",
             "name": "智邦",
-            "reason": "利息太低：最新殖利率僅 0.71% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.80% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "2347",
@@ -4037,7 +3855,7 @@
         {
             "symbol": "2360",
             "name": "致茂",
-            "reason": "利息太低：最新殖利率僅 0.96% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.90% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "2362",
@@ -4067,7 +3885,7 @@
         {
             "symbol": "2368",
             "name": "金像電",
-            "reason": "利息太低：最新殖利率僅 0.94% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.95% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "2369",
@@ -4092,7 +3910,7 @@
         {
             "symbol": "2375",
             "name": "凱美",
-            "reason": "利息太低：最新殖利率僅 0.96% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.01% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "2377",
@@ -4102,12 +3920,12 @@
         {
             "symbol": "2379",
             "name": "瑞昱",
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
+            "reason": "處於模糊地帶：未符合四大名單的入選資格"
         },
         {
             "symbol": "2380",
             "name": "虹光",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 76 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 91 張)"
         },
         {
             "symbol": "2382",
@@ -4117,7 +3935,7 @@
         {
             "symbol": "2383",
             "name": "台光電",
-            "reason": "利息太低：最新殖利率僅 0.46% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.47% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "2385",
@@ -4172,7 +3990,7 @@
         {
             "symbol": "2402",
             "name": "毅嘉",
-            "reason": "趨勢未達成長股動能標準 (均線未呈多頭排列)"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "2404",
@@ -4212,12 +4030,12 @@
         {
             "symbol": "2414",
             "name": "精技",
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 176 張)"
         },
         {
             "symbol": "2415",
             "name": "錩新",
-            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 188 張)"
         },
         {
             "symbol": "2417",
@@ -4242,12 +4060,12 @@
         {
             "symbol": "2423",
             "name": "固緯",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 126 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 92 張)"
         },
         {
             "symbol": "2424",
             "name": "隴華",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 26 張)"
         },
         {
             "symbol": "2425",
@@ -4282,17 +4100,17 @@
         {
             "symbol": "2431",
             "name": "聯昌",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 175 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 146 張)"
         },
         {
             "symbol": "2432",
             "name": "倚天酷碁-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
         },
         {
             "symbol": "2433",
             "name": "互盛電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 22 張)"
         },
         {
             "symbol": "2434",
@@ -4307,7 +4125,7 @@
         {
             "symbol": "2438",
             "name": "翔耀",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 168 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 171 張)"
         },
         {
             "symbol": "2439",
@@ -4322,7 +4140,7 @@
         {
             "symbol": "2441",
             "name": "超豐",
-            "reason": "處於模糊地帶：未符合四大名單的入選資格"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "2442",
@@ -4332,7 +4150,7 @@
         {
             "symbol": "2444",
             "name": "兆勁",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 172 張)"
+            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
         },
         {
             "symbol": "2449",
@@ -4342,7 +4160,7 @@
         {
             "symbol": "2450",
             "name": "神腦",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 98 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 78 張)"
         },
         {
             "symbol": "2451",
@@ -4352,7 +4170,7 @@
         {
             "symbol": "2453",
             "name": "凌群",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 174 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 164 張)"
         },
         {
             "symbol": "2454",
@@ -4377,7 +4195,7 @@
         {
             "symbol": "2459",
             "name": "敦吉",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 83 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 73 張)"
         },
         {
             "symbol": "2460",
@@ -4392,7 +4210,7 @@
         {
             "symbol": "2462",
             "name": "良得電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 197 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 198 張)"
         },
         {
             "symbol": "2464",
@@ -4412,7 +4230,7 @@
         {
             "symbol": "2467",
             "name": "志聖",
-            "reason": "利息太低：最新殖利率僅 0.91% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.00% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "2468",
@@ -4422,7 +4240,7 @@
         {
             "symbol": "2471",
             "name": "資通",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 107 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 87 張)"
         },
         {
             "symbol": "2472",
@@ -4442,7 +4260,7 @@
         {
             "symbol": "2477",
             "name": "美隆電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 180 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 152 張)"
         },
         {
             "symbol": "2478",
@@ -4452,7 +4270,7 @@
         {
             "symbol": "2480",
             "name": "敦陽科",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 163 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 126 張)"
         },
         {
             "symbol": "2481",
@@ -4462,7 +4280,7 @@
         {
             "symbol": "2482",
             "name": "連宇",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 117 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 102 張)"
         },
         {
             "symbol": "2483",
@@ -4487,7 +4305,7 @@
         {
             "symbol": "2488",
             "name": "漢平",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 81 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 75 張)"
         },
         {
             "symbol": "2489",
@@ -4517,7 +4335,7 @@
         {
             "symbol": "2496",
             "name": "卓越",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 22 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
         },
         {
             "symbol": "2497",
@@ -4547,12 +4365,12 @@
         {
             "symbol": "2506",
             "name": "太設",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 121 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 132 張)"
         },
         {
             "symbol": "2509",
             "name": "全坤建",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 164 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 154 張)"
         },
         {
             "symbol": "2511",
@@ -4562,7 +4380,7 @@
         {
             "symbol": "2514",
             "name": "龍邦",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 113 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 102 張)"
         },
         {
             "symbol": "2515",
@@ -4572,7 +4390,7 @@
         {
             "symbol": "2516",
             "name": "新建",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 123 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 131 張)"
         },
         {
             "symbol": "2520",
@@ -4582,7 +4400,7 @@
         {
             "symbol": "2524",
             "name": "京城",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 63 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 60 張)"
         },
         {
             "symbol": "2527",
@@ -4603,11 +4421,6 @@
             "symbol": "2534",
             "name": "宏盛",
             "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
-        },
-        {
-            "symbol": "2535",
-            "name": "達欣工",
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "2536",
@@ -4667,7 +4480,7 @@
         {
             "symbol": "2597",
             "name": "潤弘",
-            "reason": "股息發放不穩定（波動過大或曾中斷）"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 195 張)"
         },
         {
             "symbol": "2601",
@@ -4737,7 +4550,7 @@
         {
             "symbol": "2616",
             "name": "山隆",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 82 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 81 張)"
         },
         {
             "symbol": "2617",
@@ -4787,12 +4600,12 @@
         {
             "symbol": "2701",
             "name": "萬企",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 63 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 60 張)"
         },
         {
             "symbol": "2702",
             "name": "華園",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 33 張)"
         },
         {
             "symbol": "2704",
@@ -4802,27 +4615,27 @@
         {
             "symbol": "2705",
             "name": "六福",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 79 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 84 張)"
         },
         {
             "symbol": "2706",
             "name": "第一店",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 86 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 114 張)"
         },
         {
             "symbol": "2707",
             "name": "晶華",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 129 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 119 張)"
         },
         {
             "symbol": "2712",
             "name": "遠雄來",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 8 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 9 張)"
         },
         {
             "symbol": "2722",
             "name": "夏都",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 45 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 43 張)"
         },
         {
             "symbol": "2723",
@@ -4832,7 +4645,7 @@
         {
             "symbol": "2727",
             "name": "王品",
-            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
+            "reason": "股息發放不穩定（波動過大或曾中斷）"
         },
         {
             "symbol": "2731",
@@ -4842,17 +4655,17 @@
         {
             "symbol": "2739",
             "name": "寒舍",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 135 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 119 張)"
         },
         {
             "symbol": "2748",
             "name": "雲品",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 59 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 67 張)"
         },
         {
             "symbol": "2753",
             "name": "八方雲集",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 165 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 138 張)"
         },
         {
             "symbol": "2762",
@@ -4877,7 +4690,7 @@
         {
             "symbol": "2832",
             "name": "台產",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 168 張)"
+            "reason": "股息發放不穩定（波動過大或曾中斷）"
         },
         {
             "symbol": "2834",
@@ -4892,7 +4705,7 @@
         {
             "symbol": "2838",
             "name": "聯邦銀",
-            "reason": "長線填息偏慢：5 年歷史填息中位數 15.5 天 (大於 15 天嚴格門檻)"
+            "reason": "長線填息偏慢：5 年歷史填息中位數 31.0 天 (大於 15 天嚴格門檻)"
         },
         {
             "symbol": "2845",
@@ -4902,7 +4715,7 @@
         {
             "symbol": "2849",
             "name": "安泰銀",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 140 張)"
+            "reason": "處於模糊地帶：未符合四大名單的入選資格"
         },
         {
             "symbol": "2850",
@@ -4972,7 +4785,7 @@
         {
             "symbol": "2901",
             "name": "欣欣",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 6 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
         },
         {
             "symbol": "2903",
@@ -4982,7 +4795,7 @@
         {
             "symbol": "2904",
             "name": "匯僑",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 46 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 39 張)"
         },
         {
             "symbol": "2905",
@@ -4992,7 +4805,7 @@
         {
             "symbol": "2906",
             "name": "高林",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 189 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 188 張)"
         },
         {
             "symbol": "2908",
@@ -5007,7 +4820,7 @@
         {
             "symbol": "2911",
             "name": "麗嬰房",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 109 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 91 張)"
         },
         {
             "symbol": "2912",
@@ -5027,27 +4840,27 @@
         {
             "symbol": "2923",
             "name": "鼎固-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 177 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 180 張)"
         },
         {
             "symbol": "2929",
             "name": "淘帝-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 198 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 127 張)"
         },
         {
             "symbol": "2939",
             "name": "永邑-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 33 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 55 張)"
         },
         {
             "symbol": "2945",
             "name": "三商家購",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 17 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 12 張)"
         },
         {
             "symbol": "3002",
             "name": "歐格",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 107 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 99 張)"
         },
         {
             "symbol": "3003",
@@ -5107,22 +4920,22 @@
         {
             "symbol": "3017",
             "name": "奇鋐",
-            "reason": "利息太低：最新殖利率僅 0.50% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.53% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "3018",
             "name": "隆銘綠能",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 83 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 69 張)"
         },
         {
             "symbol": "3019",
             "name": "亞光",
-            "reason": "趨勢未達成長股動能標準 (均線未呈多頭排列)"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "3021",
             "name": "鴻名",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 138 張)"
+            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
         },
         {
             "symbol": "3022",
@@ -5142,7 +4955,7 @@
         {
             "symbol": "3025",
             "name": "星通",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 178 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 187 張)"
         },
         {
             "symbol": "3026",
@@ -5152,7 +4965,7 @@
         {
             "symbol": "3027",
             "name": "盛達",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 149 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 137 張)"
         },
         {
             "symbol": "3028",
@@ -5207,12 +5020,12 @@
         {
             "symbol": "3038",
             "name": "全台",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 141 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 171 張)"
         },
         {
             "symbol": "3040",
             "name": "遠見",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 98 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 156 張)"
         },
         {
             "symbol": "3041",
@@ -5227,7 +5040,7 @@
         {
             "symbol": "3043",
             "name": "科風",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 87 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 72 張)"
         },
         {
             "symbol": "3045",
@@ -5272,7 +5085,7 @@
         {
             "symbol": "3054",
             "name": "立萬利",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 130 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 128 張)"
         },
         {
             "symbol": "3055",
@@ -5287,7 +5100,7 @@
         {
             "symbol": "3057",
             "name": "喬鼎",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 121 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 98 張)"
         },
         {
             "symbol": "3058",
@@ -5297,7 +5110,7 @@
         {
             "symbol": "3059",
             "name": "華晶科",
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
+            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
         },
         {
             "symbol": "3060",
@@ -5312,12 +5125,12 @@
         {
             "symbol": "3090",
             "name": "日電貿",
-            "reason": "處於模糊地帶：未符合四大名單的入選資格"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "3092",
             "name": "鴻碩",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 149 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 151 張)"
         },
         {
             "symbol": "3094",
@@ -5327,7 +5140,7 @@
         {
             "symbol": "3130",
             "name": "一零四",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 77 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 55 張)"
         },
         {
             "symbol": "3135",
@@ -5337,7 +5150,7 @@
         {
             "symbol": "3138",
             "name": "耀登",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 165 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 146 張)"
         },
         {
             "symbol": "3149",
@@ -5347,22 +5160,22 @@
         {
             "symbol": "3150",
             "name": "鈺寶-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 29 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 25 張)"
         },
         {
             "symbol": "3164",
             "name": "景岳",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 22 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 17 張)"
         },
         {
             "symbol": "3167",
             "name": "大量",
-            "reason": "利息太低：最新殖利率僅 0.49% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.47% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "3168",
             "name": "眾福科",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 15 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 14 張)"
         },
         {
             "symbol": "3189",
@@ -5387,12 +5200,12 @@
         {
             "symbol": "3266",
             "name": "昇陽",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 30 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 31 張)"
         },
         {
             "symbol": "3296",
             "name": "勝德",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 39 張)"
         },
         {
             "symbol": "3305",
@@ -5407,7 +5220,7 @@
         {
             "symbol": "3311",
             "name": "閎暉",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 151 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 146 張)"
         },
         {
             "symbol": "3312",
@@ -5417,7 +5230,7 @@
         {
             "symbol": "3321",
             "name": "同泰",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 177 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 182 張)"
         },
         {
             "symbol": "3338",
@@ -5428,11 +5241,6 @@
             "symbol": "3346",
             "name": "麗清",
             "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
-        },
-        {
-            "symbol": "3356",
-            "name": "奇偶",
-            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
         },
         {
             "symbol": "3376",
@@ -5462,12 +5270,12 @@
         {
             "symbol": "3419",
             "name": "譁裕",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 98 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 108 張)"
         },
         {
             "symbol": "3432",
             "name": "台端",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 30 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 26 張)"
         },
         {
             "symbol": "3437",
@@ -5482,7 +5290,7 @@
         {
             "symbol": "3447",
             "name": "展達",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 119 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 109 張)"
         },
         {
             "symbol": "3450",
@@ -5497,12 +5305,12 @@
         {
             "symbol": "3494",
             "name": "誠研",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 56 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 58 張)"
         },
         {
             "symbol": "3501",
             "name": "維熹",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 131 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 113 張)"
         },
         {
             "symbol": "3504",
@@ -5522,12 +5330,12 @@
         {
             "symbol": "3528",
             "name": "安馳",
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 187 張)"
         },
         {
             "symbol": "3530",
             "name": "晶相光",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 164 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 162 張)"
         },
         {
             "symbol": "3532",
@@ -5562,7 +5370,7 @@
         {
             "symbol": "3557",
             "name": "嘉威",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 30 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 28 張)"
         },
         {
             "symbol": "3563",
@@ -5577,17 +5385,12 @@
         {
             "symbol": "3583",
             "name": "辛耘",
-            "reason": "利息太低：最新殖利率僅 0.81% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.82% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "3588",
             "name": "通嘉",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 169 張)"
-        },
-        {
-            "symbol": "3591",
-            "name": "艾笛森",
-            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 152 張)"
         },
         {
             "symbol": "3592",
@@ -5597,7 +5400,7 @@
         {
             "symbol": "3593",
             "name": "力銘",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 17 張)"
         },
         {
             "symbol": "3596",
@@ -5612,7 +5415,7 @@
         {
             "symbol": "3607",
             "name": "谷崧",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 162 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 150 張)"
         },
         {
             "symbol": "3617",
@@ -5637,17 +5440,17 @@
         {
             "symbol": "3653",
             "name": "健策",
-            "reason": "利息太低：最新殖利率僅 0.37% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.38% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "3661",
             "name": "世芯-KY",
-            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
+            "reason": "利息太低：最新殖利率僅 0.89% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "3665",
             "name": "貿聯-KY",
-            "reason": "利息太低：最新殖利率僅 0.72% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.82% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "3669",
@@ -5657,17 +5460,17 @@
         {
             "symbol": "3673",
             "name": "TPK-KY",
-            "reason": "趨勢未達成長股動能標準 (均線未呈多頭排列)"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "3679",
             "name": "新至陞",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 47 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 39 張)"
         },
         {
             "symbol": "3686",
             "name": "達能",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 58 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 59 張)"
         },
         {
             "symbol": "3694",
@@ -5697,12 +5500,12 @@
         {
             "symbol": "3705",
             "name": "永信",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 163 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 178 張)"
         },
         {
             "symbol": "3706",
             "name": "神達",
-            "reason": "利息太低：最新殖利率僅 1.08% (未達 1.5% 基本門檻)"
+            "reason": "處於模糊地帶：未符合四大名單的入選資格"
         },
         {
             "symbol": "3708",
@@ -5742,12 +5545,12 @@
         {
             "symbol": "4104",
             "name": "佳醫",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 113 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 130 張)"
         },
         {
             "symbol": "4106",
             "name": "雃博",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 138 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 124 張)"
         },
         {
             "symbol": "4108",
@@ -5762,7 +5565,7 @@
         {
             "symbol": "4133",
             "name": "亞諾法",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 76 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 66 張)"
         },
         {
             "symbol": "4137",
@@ -5777,7 +5580,7 @@
         {
             "symbol": "4148",
             "name": "全宇生技-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 54 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 56 張)"
         },
         {
             "symbol": "4155",
@@ -5792,22 +5595,22 @@
         {
             "symbol": "4169",
             "name": "泰宗",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 148 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 130 張)"
         },
         {
             "symbol": "4178",
             "name": "永笙-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 96 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 87 張)"
         },
         {
             "symbol": "4190",
             "name": "佐登-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 9 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 8 張)"
         },
         {
             "symbol": "4195",
             "name": "基米-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 93 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 85 張)"
         },
         {
             "symbol": "4306",
@@ -5817,32 +5620,32 @@
         {
             "symbol": "4414",
             "name": "如興",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 167 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 148 張)"
         },
         {
             "symbol": "4426",
             "name": "利勤",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 101 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 93 張)"
         },
         {
             "symbol": "4438",
             "name": "廣越",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 110 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 107 張)"
         },
         {
             "symbol": "4439",
             "name": "冠星-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 56 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 55 張)"
         },
         {
             "symbol": "4440",
             "name": "宜新實業",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 61 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 46 張)"
         },
         {
             "symbol": "4441",
             "name": "振大環球",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 105 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 63 張)"
         },
         {
             "symbol": "4526",
@@ -5857,7 +5660,7 @@
         {
             "symbol": "4536",
             "name": "拓凱",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 174 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 159 張)"
         },
         {
             "symbol": "4540",
@@ -5867,27 +5670,27 @@
         {
             "symbol": "4545",
             "name": "銘鈺",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 62 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 83 張)"
         },
         {
             "symbol": "4551",
             "name": "智伸科",
-            "reason": "處於模糊地帶：未符合四大名單的入選資格"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "4552",
             "name": "力達-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 116 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 144 張)"
         },
         {
             "symbol": "4555",
             "name": "氣立",
-            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 152 張)"
         },
         {
             "symbol": "4557",
             "name": "永新-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 59 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 40 張)"
         },
         {
             "symbol": "4560",
@@ -5897,7 +5700,7 @@
         {
             "symbol": "4562",
             "name": "穎漢",
-            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 157 張)"
         },
         {
             "symbol": "4564",
@@ -5907,17 +5710,17 @@
         {
             "symbol": "4566",
             "name": "時碩工業",
-            "reason": "利息太低：最新殖利率僅 1.07% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.05% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "4569",
             "name": "六方科-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 109 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 126 張)"
         },
         {
             "symbol": "4571",
             "name": "鈞興-KY",
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 141 張)"
         },
         {
             "symbol": "4572",
@@ -5927,22 +5730,22 @@
         {
             "symbol": "4576",
             "name": "大銀微系統",
-            "reason": "利息太低：最新殖利率僅 0.34% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.33% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "4581",
             "name": "光隆精密-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 14 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 6 張)"
         },
         {
             "symbol": "4582",
             "name": "聚恆-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 200 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 114 張)"
         },
         {
             "symbol": "4583",
             "name": "台灣精銳",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 139 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 96 張)"
         },
         {
             "symbol": "4585",
@@ -5967,7 +5770,7 @@
         {
             "symbol": "4722",
             "name": "國精化",
-            "reason": "利息太低：最新殖利率僅 0.59% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.64% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "4736",
@@ -5977,7 +5780,7 @@
         {
             "symbol": "4737",
             "name": "華廣",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 60 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 67 張)"
         },
         {
             "symbol": "4739",
@@ -5992,7 +5795,7 @@
         {
             "symbol": "4755",
             "name": "三福化",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 190 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 186 張)"
         },
         {
             "symbol": "4763",
@@ -6007,7 +5810,7 @@
         {
             "symbol": "4766",
             "name": "南寶",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 194 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 170 張)"
         },
         {
             "symbol": "4770",
@@ -6022,7 +5825,7 @@
         {
             "symbol": "4807",
             "name": "日成-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 186 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 171 張)"
         },
         {
             "symbol": "4904",
@@ -6047,7 +5850,7 @@
         {
             "symbol": "4916",
             "name": "事欣科",
-            "reason": "利息太低：最新殖利率僅 0.51% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.53% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "4919",
@@ -6062,7 +5865,7 @@
         {
             "symbol": "4930",
             "name": "燦星網",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 25 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 28 張)"
         },
         {
             "symbol": "4934",
@@ -6072,7 +5875,7 @@
         {
             "symbol": "4935",
             "name": "茂林-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 72 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 86 張)"
         },
         {
             "symbol": "4938",
@@ -6082,12 +5885,12 @@
         {
             "symbol": "4942",
             "name": "嘉彰",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 86 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 73 張)"
         },
         {
             "symbol": "4943",
             "name": "康控-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 36 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 43 張)"
         },
         {
             "symbol": "4949",
@@ -6137,7 +5940,7 @@
         {
             "symbol": "4977",
             "name": "眾達-KY",
-            "reason": "利息太低：最新殖利率僅 1.14% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.21% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "4989",
@@ -6152,22 +5955,22 @@
         {
             "symbol": "4999",
             "name": "鑫禾",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 41 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 35 張)"
         },
         {
             "symbol": "5007",
             "name": "三星",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 48 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 42 張)"
         },
         {
             "symbol": "5203",
             "name": "訊連",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 148 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 123 張)"
         },
         {
             "symbol": "5215",
             "name": "科嘉-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 69 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 51 張)"
         },
         {
             "symbol": "5222",
@@ -6187,17 +5990,17 @@
         {
             "symbol": "5236",
             "name": "凌陽創新",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 109 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 98 張)"
         },
         {
             "symbol": "5243",
             "name": "乙盛-KY",
-            "reason": "處於模糊地帶：未符合四大名單的入選資格"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "5244",
             "name": "弘凱",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 130 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 139 張)"
         },
         {
             "symbol": "5258",
@@ -6212,12 +6015,12 @@
         {
             "symbol": "5283",
             "name": "禾聯碩",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 157 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 131 張)"
         },
         {
             "symbol": "5284",
             "name": "jpp-KY",
-            "reason": "利息太低：最新殖利率僅 1.50% (未達 1.5% 基本門檻)"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "5285",
@@ -6227,7 +6030,7 @@
         {
             "symbol": "5288",
             "name": "豐祥-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 104 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 89 張)"
         },
         {
             "symbol": "5292",
@@ -6237,7 +6040,7 @@
         {
             "symbol": "5306",
             "name": "桂盟",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 151 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 100 張)"
         },
         {
             "symbol": "5388",
@@ -6272,7 +6075,7 @@
         {
             "symbol": "5521",
             "name": "工信",
-            "reason": "利息太低：最新殖利率僅 1.42% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.44% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "5522",
@@ -6282,7 +6085,7 @@
         {
             "symbol": "5525",
             "name": "順天",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 87 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 81 張)"
         },
         {
             "symbol": "5531",
@@ -6292,7 +6095,7 @@
         {
             "symbol": "5533",
             "name": "皇鼎",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 114 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 107 張)"
         },
         {
             "symbol": "5534",
@@ -6302,12 +6105,12 @@
         {
             "symbol": "5538",
             "name": "東明-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 160 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 129 張)"
         },
         {
             "symbol": "5546",
             "name": "永固-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 45 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 54 張)"
         },
         {
             "symbol": "5607",
@@ -6322,7 +6125,7 @@
         {
             "symbol": "5706",
             "name": "鳳凰",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 99 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 96 張)"
         },
         {
             "symbol": "5871",
@@ -6377,7 +6180,7 @@
         {
             "symbol": "6117",
             "name": "迎廣",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 184 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 158 張)"
         },
         {
             "symbol": "6120",
@@ -6387,17 +6190,12 @@
         {
             "symbol": "6128",
             "name": "上福",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 72 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 91 張)"
         },
         {
             "symbol": "6133",
             "name": "金橋",
-            "reason": "利息太低：最新殖利率僅 1.26% (未達 1.5% 基本門檻)"
-        },
-        {
-            "symbol": "6136",
-            "name": "富爾特",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 196 張)"
+            "reason": "股息發放不穩定（波動過大或曾中斷）"
         },
         {
             "symbol": "6139",
@@ -6437,7 +6235,7 @@
         {
             "symbol": "6165",
             "name": "浪凡",
-            "reason": "利息太低：最新殖利率僅 1.21% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.25% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "6166",
@@ -6462,12 +6260,12 @@
         {
             "symbol": "6183",
             "name": "關貿",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 27 張)"
         },
         {
             "symbol": "6184",
             "name": "大豐電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 75 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 120 張)"
         },
         {
             "symbol": "6189",
@@ -6482,12 +6280,12 @@
         {
             "symbol": "6192",
             "name": "巨路",
-            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 135 張)"
         },
         {
             "symbol": "6196",
             "name": "帆宣",
-            "reason": "利息太低：最新殖利率僅 1.25% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.26% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "6197",
@@ -6497,7 +6295,7 @@
         {
             "symbol": "6201",
             "name": "亞弘電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 28 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 29 張)"
         },
         {
             "symbol": "6202",
@@ -6532,22 +6330,22 @@
         {
             "symbol": "6215",
             "name": "和椿",
-            "reason": "利息太低：最新殖利率僅 1.01% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.02% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "6216",
             "name": "居易",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 141 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 147 張)"
         },
         {
             "symbol": "6224",
             "name": "聚鼎",
-            "reason": "利息太低：最新殖利率僅 1.47% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.43% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "6225",
             "name": "天瀚",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 191 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 183 張)"
         },
         {
             "symbol": "6226",
@@ -6557,7 +6355,7 @@
         {
             "symbol": "6230",
             "name": "尼得科超眾",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 44 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 33 張)"
         },
         {
             "symbol": "6235",
@@ -6607,7 +6405,7 @@
         {
             "symbol": "6281",
             "name": "全國電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 31 張)"
         },
         {
             "symbol": "6282",
@@ -6617,7 +6415,7 @@
         {
             "symbol": "6283",
             "name": "淳安",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 90 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 96 張)"
         },
         {
             "symbol": "6285",
@@ -6662,7 +6460,7 @@
         {
             "symbol": "6431",
             "name": "光麗-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 111 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 85 張)"
         },
         {
             "symbol": "6438",
@@ -6672,7 +6470,7 @@
         {
             "symbol": "6442",
             "name": "光聖",
-            "reason": "利息太低：最新殖利率僅 0.64% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.67% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "6443",
@@ -6722,7 +6520,7 @@
         {
             "symbol": "6504",
             "name": "南六",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 25 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 31 張)"
         },
         {
             "symbol": "6505",
@@ -6732,7 +6530,7 @@
         {
             "symbol": "6515",
             "name": "穎崴",
-            "reason": "利息太低：最新殖利率僅 0.70% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.72% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "6525",
@@ -6757,7 +6555,7 @@
         {
             "symbol": "6534",
             "name": "正瀚-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 70 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 47 張)"
         },
         {
             "symbol": "6541",
@@ -6772,12 +6570,12 @@
         {
             "symbol": "6552",
             "name": "易華電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 82 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 70 張)"
         },
         {
             "symbol": "6558",
             "name": "興能高",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 163 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 146 張)"
         },
         {
             "symbol": "6573",
@@ -6792,17 +6590,17 @@
         {
             "symbol": "6581",
             "name": "鋼聯",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
         },
         {
             "symbol": "6582",
             "name": "申豐",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 37 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
         },
         {
             "symbol": "6585",
             "name": "鼎基",
-            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 171 張)"
         },
         {
             "symbol": "6589",
@@ -6812,7 +6610,7 @@
         {
             "symbol": "6591",
             "name": "動力-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 110 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 90 張)"
         },
         {
             "symbol": "6592",
@@ -6832,37 +6630,37 @@
         {
             "symbol": "6606",
             "name": "建德工業",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 125 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 91 張)"
         },
         {
             "symbol": "6614",
             "name": "資拓宏宇",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 27 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 25 張)"
         },
         {
             "symbol": "6625",
             "name": "必應",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 86 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 71 張)"
         },
         {
             "symbol": "6641",
             "name": "基士德-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 51 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 21 張)"
         },
         {
             "symbol": "6645",
             "name": "金萬林-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 23 張)"
         },
         {
             "symbol": "6655",
             "name": "科定",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 4 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 7 張)"
         },
         {
             "symbol": "6657",
             "name": "華安",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 87 張)"
+            "reason": "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
         },
         {
             "symbol": "6658",
@@ -6872,7 +6670,7 @@
         {
             "symbol": "6666",
             "name": "羅麗芬-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 30 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
         },
         {
             "symbol": "6668",
@@ -6882,7 +6680,7 @@
         {
             "symbol": "6671",
             "name": "三能-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 56 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 37 張)"
         },
         {
             "symbol": "6672",
@@ -6892,12 +6690,12 @@
         {
             "symbol": "6674",
             "name": "鋐寶科技",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 52 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 66 張)"
         },
         {
             "symbol": "6689",
             "name": "伊雲谷",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 96 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 110 張)"
         },
         {
             "symbol": "6691",
@@ -6912,7 +6710,7 @@
         {
             "symbol": "6698",
             "name": "旭暉應材",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 136 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 124 張)"
         },
         {
             "symbol": "6706",
@@ -6932,7 +6730,7 @@
         {
             "symbol": "6722",
             "name": "輝創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 22 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 25 張)"
         },
         {
             "symbol": "6742",
@@ -6947,12 +6745,12 @@
         {
             "symbol": "6753",
             "name": "龍德造船",
-            "reason": "利息太低：最新殖利率僅 0.91% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.93% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "6754",
             "name": "匯僑設計",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 9 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 8 張)"
         },
         {
             "symbol": "6756",
@@ -6977,17 +6775,17 @@
         {
             "symbol": "6771",
             "name": "平和環保-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 55 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 45 張)"
         },
         {
             "symbol": "6776",
             "name": "展碁國際",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 87 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 74 張)"
         },
         {
             "symbol": "6781",
             "name": "AES-KY",
-            "reason": "趨勢未達成長股動能標準 (均線未呈多頭排列)"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "6782",
@@ -7002,32 +6800,32 @@
         {
             "symbol": "6790",
             "name": "永豐實",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 122 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 101 張)"
         },
         {
             "symbol": "6792",
             "name": "詠業",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 27 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 36 張)"
         },
         {
             "symbol": "6794",
             "name": "向榮生技",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 43 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
         },
         {
             "symbol": "6796",
             "name": "晉弘",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 76 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 97 張)"
         },
         {
             "symbol": "6799",
             "name": "來頡",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 172 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 149 張)"
         },
         {
             "symbol": "6805",
             "name": "富世達",
-            "reason": "利息太低：最新殖利率僅 0.57% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.58% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "6807",
@@ -7042,7 +6840,7 @@
         {
             "symbol": "6831",
             "name": "邁科",
-            "reason": "利息太低：最新殖利率僅 0.50% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 0.53% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "6834",
@@ -7052,12 +6850,12 @@
         {
             "symbol": "6835",
             "name": "圓裕",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 18 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
         },
         {
             "symbol": "6838",
             "name": "台新藥",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 86 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 100 張)"
         },
         {
             "symbol": "6854",
@@ -7072,12 +6870,12 @@
         {
             "symbol": "6862",
             "name": "三集瑞-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 159 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 130 張)"
         },
         {
             "symbol": "6863",
             "name": "永道-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 184 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 113 張)"
         },
         {
             "symbol": "6869",
@@ -7097,7 +6895,7 @@
         {
             "symbol": "6887",
             "name": "寶綠特-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 36 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 35 張)"
         },
         {
             "symbol": "6890",
@@ -7112,12 +6910,12 @@
         {
             "symbol": "6902",
             "name": "GOGOLOOK",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 82 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 69 張)"
         },
         {
             "symbol": "6906",
             "name": "現觀科",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 95 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 111 張)"
         },
         {
             "symbol": "6908",
@@ -7127,22 +6925,22 @@
         {
             "symbol": "6909",
             "name": "創控",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 178 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 198 張)"
         },
         {
             "symbol": "6914",
             "name": "阜爾運通",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 130 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 116 張)"
         },
         {
             "symbol": "6916",
             "name": "華凌",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 26 張)"
         },
         {
             "symbol": "6918",
             "name": "愛派司",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 36 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 38 張)"
         },
         {
             "symbol": "6919",
@@ -7152,27 +6950,27 @@
         {
             "symbol": "6921",
             "name": "嘉雨思-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 25 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 13 張)"
         },
         {
             "symbol": "6923",
             "name": "中台",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 48 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 40 張)"
         },
         {
             "symbol": "6924",
             "name": "榮惠-KY創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 35 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 44 張)"
         },
         {
             "symbol": "6928",
             "name": "攸泰科技",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 97 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 74 張)"
         },
         {
             "symbol": "6931",
             "name": "青松健康",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 103 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 57 張)"
         },
         {
             "symbol": "6933",
@@ -7182,12 +6980,12 @@
         {
             "symbol": "6934",
             "name": "心誠鎂",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 23 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 25 張)"
         },
         {
             "symbol": "6936",
             "name": "永鴻生技",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 22 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 23 張)"
         },
         {
             "symbol": "6937",
@@ -7202,6 +7000,11 @@
         {
             "symbol": "6947",
             "name": "台鎔科技",
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 195 張)"
+        },
+        {
+            "symbol": "6949",
+            "name": "沛爾生醫*-創",
             "reason": "Stage 2 淘汰：資歷太淺 (上市未滿 5 年)"
         },
         {
@@ -7212,7 +7015,7 @@
         {
             "symbol": "6952",
             "name": "大武山",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 16 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 11 張)"
         },
         {
             "symbol": "6955",
@@ -7222,12 +7025,12 @@
         {
             "symbol": "6957",
             "name": "裕慶-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 72 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 77 張)"
         },
         {
             "symbol": "6958",
             "name": "日盛台駿",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 31 張)"
         },
         {
             "symbol": "6962",
@@ -7237,17 +7040,17 @@
         {
             "symbol": "6965",
             "name": "中傑-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 22 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 24 張)"
         },
         {
             "symbol": "6969",
             "name": "成信實業*-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 172 張)"
+            "reason": "Stage 2 淘汰：資歷太淺 (上市未滿 5 年)"
         },
         {
             "symbol": "6988",
             "name": "威力暘-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 48 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 46 張)"
         },
         {
             "symbol": "6994",
@@ -7262,17 +7065,17 @@
         {
             "symbol": "7631",
             "name": "聚賢研發-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 98 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 53 張)"
         },
         {
             "symbol": "7689",
             "name": "大鵬科CLMX",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 91 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 79 張)"
         },
         {
             "symbol": "7705",
             "name": "三商餐飲",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 44 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 47 張)"
         },
         {
             "symbol": "7711",
@@ -7282,37 +7085,37 @@
         {
             "symbol": "7721",
             "name": "微程式",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 59 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 57 張)"
         },
         {
             "symbol": "7722",
             "name": "LINEPAY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 74 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 57 張)"
         },
         {
             "symbol": "7730",
             "name": "暉盛-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 125 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 122 張)"
         },
         {
             "symbol": "7732",
             "name": "金興精密",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 29 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 13 張)"
         },
         {
             "symbol": "7736",
             "name": "虎山",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 18 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 15 張)"
         },
         {
             "symbol": "7740",
             "name": "熙特爾-創",
-            "reason": "Stage 2 淘汰：資歷太淺 (上市未滿 5 年)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 98 張)"
         },
         {
             "symbol": "7749",
             "name": "意騰-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 188 張)"
+            "reason": "Stage 2 淘汰：資歷太淺 (上市未滿 5 年)"
         },
         {
             "symbol": "7750",
@@ -7322,17 +7125,17 @@
         {
             "symbol": "7760",
             "name": "享溫馨",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 73 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 62 張)"
         },
         {
             "symbol": "7765",
             "name": "中華資安",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 30 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 42 張)"
         },
         {
             "symbol": "7768",
             "name": "頌勝科技",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 100 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 90 張)"
         },
         {
             "symbol": "7769",
@@ -7347,7 +7150,7 @@
         {
             "symbol": "7786",
             "name": "東方風能",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 169 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 150 張)"
         },
         {
             "symbol": "7788",
@@ -7357,7 +7160,7 @@
         {
             "symbol": "7791",
             "name": "皇家可口",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 45 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 31 張)"
         },
         {
             "symbol": "7795",
@@ -7372,27 +7175,27 @@
         {
             "symbol": "7803",
             "name": "雲象科技-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 29 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
         },
         {
             "symbol": "7818",
             "name": "溢泰實業",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 69 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 63 張)"
         },
         {
             "symbol": "7821",
             "name": "神數",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 100 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 81 張)"
         },
         {
             "symbol": "7822",
             "name": "倍利科",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 169 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 174 張)"
         },
         {
             "symbol": "7823",
             "name": "奧義賽博-KY創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 29 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 26 張)"
         },
         {
             "symbol": "7827",
@@ -7402,7 +7205,7 @@
         {
             "symbol": "7835",
             "name": "永悅健康-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 73 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 72 張)"
         },
         {
             "symbol": "7855",
@@ -7427,7 +7230,7 @@
         {
             "symbol": "8028",
             "name": "昇陽半導體",
-            "reason": "利息太低：最新殖利率僅 1.13% (未達 1.5% 基本門檻)"
+            "reason": "利息太低：最新殖利率僅 1.20% (未達 1.5% 基本門檻)"
         },
         {
             "symbol": "8033",
@@ -7442,7 +7245,7 @@
         {
             "symbol": "8045",
             "name": "達運光電",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 172 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 147 張)"
         },
         {
             "symbol": "8046",
@@ -7457,7 +7260,7 @@
         {
             "symbol": "8072",
             "name": "陞泰",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 85 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 79 張)"
         },
         {
             "symbol": "8081",
@@ -7467,7 +7270,7 @@
         {
             "symbol": "8101",
             "name": "華冠",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 17 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 15 張)"
         },
         {
             "symbol": "8103",
@@ -7512,7 +7315,7 @@
         {
             "symbol": "8162",
             "name": "微矽電子-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 157 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 133 張)"
         },
         {
             "symbol": "8163",
@@ -7522,12 +7325,12 @@
         {
             "symbol": "8201",
             "name": "無敵",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 26 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 29 張)"
         },
         {
             "symbol": "8210",
             "name": "勤誠",
-            "reason": "利息太低：最新殖利率僅 1.42% (未達 1.5% 基本門檻)"
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "8213",
@@ -7562,12 +7365,12 @@
         {
             "symbol": "8341",
             "name": "日友",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 148 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 147 張)"
         },
         {
             "symbol": "8367",
             "name": "建新國際",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 19 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 18 張)"
         },
         {
             "symbol": "8374",
@@ -7582,7 +7385,7 @@
         {
             "symbol": "8411",
             "name": "福貞-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 68 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 53 張)"
         },
         {
             "symbol": "8422",
@@ -7592,22 +7395,22 @@
         {
             "symbol": "8429",
             "name": "金麗-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 102 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 101 張)"
         },
         {
             "symbol": "8438",
             "name": "昶昕",
-            "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 174 張)"
         },
         {
             "symbol": "8442",
             "name": "威宏-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 97 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 94 張)"
         },
         {
             "symbol": "8443",
             "name": "阿瘦",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 22 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 23 張)"
         },
         {
             "symbol": "8454",
@@ -7617,22 +7420,22 @@
         {
             "symbol": "8462",
             "name": "柏文",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 109 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 81 張)"
         },
         {
             "symbol": "8463",
             "name": "潤泰材",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 56 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 32 張)"
         },
         {
             "symbol": "8466",
             "name": "美吉吉-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 21 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
         },
         {
             "symbol": "8467",
             "name": "波力-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 23 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 17 張)"
         },
         {
             "symbol": "8473",
@@ -7647,12 +7450,12 @@
         {
             "symbol": "8478",
             "name": "東哥遊艇",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 122 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 96 張)"
         },
         {
             "symbol": "8481",
             "name": "政伸",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 14 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 12 張)"
         },
         {
             "symbol": "8482",
@@ -7662,17 +7465,17 @@
         {
             "symbol": "8487",
             "name": "愛爾達-創",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 14 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 11 張)"
         },
         {
             "symbol": "8488",
             "name": "吉源-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 127 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 124 張)"
         },
         {
             "symbol": "8499",
             "name": "鼎炫-KY",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 34 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 29 張)"
         },
         {
             "symbol": "8926",
@@ -7682,7 +7485,7 @@
         {
             "symbol": "8940",
             "name": "新天地",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 47 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 46 張)"
         },
         {
             "symbol": "8996",
@@ -7702,7 +7505,7 @@
         {
             "symbol": "9110",
             "name": "越南控-DR",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 8 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 9 張)"
         },
         {
             "symbol": "9136",
@@ -7717,7 +7520,7 @@
         {
             "symbol": "9902",
             "name": "台火",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 81 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 89 張)"
         },
         {
             "symbol": "9904",
@@ -7727,12 +7530,12 @@
         {
             "symbol": "9905",
             "name": "大華",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 147 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 110 張)"
         },
         {
             "symbol": "9906",
             "name": "欣巴巴",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 48 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 51 張)"
         },
         {
             "symbol": "9907",
@@ -7742,7 +7545,7 @@
         {
             "symbol": "9908",
             "name": "大台北",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 121 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 129 張)"
         },
         {
             "symbol": "9910",
@@ -7752,12 +7555,12 @@
         {
             "symbol": "9911",
             "name": "櫻花",
-            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 185 張)"
         },
         {
             "symbol": "9912",
             "name": "偉聯",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 174 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 175 張)"
         },
         {
             "symbol": "9914",
@@ -7772,12 +7575,12 @@
         {
             "symbol": "9918",
             "name": "欣天然",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 27 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 16 張)"
         },
         {
             "symbol": "9919",
             "name": "康那香",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 157 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 183 張)"
         },
         {
             "symbol": "9921",
@@ -7787,7 +7590,12 @@
         {
             "symbol": "9924",
             "name": "福興",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 171 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 133 張)"
+        },
+        {
+            "symbol": "9925",
+            "name": "新保",
+            "reason": "短中期趨勢走弱 (股價跌破月線與季線)"
         },
         {
             "symbol": "9926",
@@ -7797,7 +7605,7 @@
         {
             "symbol": "9927",
             "name": "泰銘",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 89 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 72 張)"
         },
         {
             "symbol": "9928",
@@ -7807,17 +7615,17 @@
         {
             "symbol": "9929",
             "name": "秋雨",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 12 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 14 張)"
         },
         {
             "symbol": "9930",
             "name": "中聯資源",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 75 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 87 張)"
         },
         {
             "symbol": "9931",
             "name": "欣高",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 17 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 20 張)"
         },
         {
             "symbol": "9933",
@@ -7837,7 +7645,7 @@
         {
             "symbol": "9937",
             "name": "全國",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 27 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 31 張)"
         },
         {
             "symbol": "9938",
@@ -7862,17 +7670,17 @@
         {
             "symbol": "9942",
             "name": "茂順",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 92 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 70 張)"
         },
         {
             "symbol": "9943",
             "name": "好樂迪",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 59 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 47 張)"
         },
         {
             "symbol": "9944",
             "name": "新麗",
-            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 35 張)"
+            "reason": "Stage 1 淘汰：流動性不足 (近20日均量僅 30 張)"
         },
         {
             "symbol": "9945",
@@ -7895,25 +7703,25 @@
             "reason": "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
         }
     ],
-    "last_update": "2026-09-05",
+    "last_update": "2026-09-12",
     "last_0050_reminder_month": "2026-06",
     "expired_souvenir_stocks": [
         {
             "symbol": "1416",
             "name": "廣豐",
-            "is_niche_stable": false,
+            "is_niche_stable": true,
             "listed_count": 2,
-            "latest_price": 11.75,
-            "avg_vol_20d_sheets": 677.0,
-            "dividend_yield_pct": 4.85,
+            "latest_price": 11.3,
+            "avg_vol_20d_sheets": 355.0,
+            "dividend_yield_pct": 5.04,
             "dividend_amount": 0.57,
-            "beta": 0.1228,
+            "beta": 0.1254,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 0.81,
             "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/1416/news",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8zZUtaZ1JkT0xyLXY1dVpuUHFOcTJpbjdxcXpOWmgzWENuWGpYX3NicFptQ19BcjV1eG1hdWEzLVZRYVBjN2pESkhUT3JWWTh5ZWRn?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -7931,7 +7739,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false,
             "has_souvenir": true,
@@ -7943,17 +7751,17 @@
             "name": "興農",
             "is_niche_stable": false,
             "listed_count": 2,
-            "latest_price": 40.65,
-            "avg_vol_20d_sheets": 1372.0,
-            "dividend_yield_pct": 6.15,
+            "latest_price": 40.25,
+            "avg_vol_20d_sheets": 1306.0,
+            "dividend_yield_pct": 6.21,
             "dividend_amount": 2.5,
-            "beta": -0.0198,
+            "beta": -0.0196,
             "avg_fill_dividend_days": 2.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 2.6,
             "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/1712/news",
+            "google_news_url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOcUtsSGpkdGV0NjI1Z1drMTB4cWhkbkRvakZLcjRzSEE3WFR2TG5FUnpVT3UyVUpyVm53LXNjZ3FrMWJPWm1xZU5kWGFURDFReE4tRmxwWGNGQWFENlo0SU5tbl9SenRYOWhnQldrY2VRLWpOX1gyci1UTXR6UUI2eDd6bmZaWmtMVjBPaVFjTVpIbzl6eEQ1dnkxNjJGTkZSVXBTRGE1QWo1SFl4ZDQ4eHo2OHdGNFNwMDBnNUpTNVk2QnhqNlYtUFJEb1ZtRFNpSURpOGNxQnRHY0lFOTY5cmg1eVdDQ1dsYXVzT1BSQXhKSThWXzR3ZlkwSjVrSl9WRENsNTNNZlFWODM5MTllZVBrNmY?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": true,
@@ -7971,7 +7779,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false,
             "has_souvenir": true,
@@ -7979,61 +7787,21 @@
             "souvenir_last_buy_date": "2026-03-25"
         },
         {
-            "symbol": "1737",
-            "name": "臺鹽",
-            "is_niche_stable": true,
-            "listed_count": 2,
-            "latest_price": 30.65,
-            "avg_vol_20d_sheets": 245.0,
-            "dividend_yield_pct": 4.57,
-            "dividend_amount": 1.4,
-            "beta": 0.0318,
-            "avg_fill_dividend_days": 0.0,
-            "failed_fill_count": 0,
-            "is_dividend_spike": false,
-            "last_year_eps": 2.0,
-            "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBjd3Z6UmRXTHJqb3hoczB1d0l0TlJVajVkdGpBQm56WlFqRTB5ODMtdko4dHFuQUNrczVKdjV4WGh3bFdFbnN6OG9Pc2U4STg?oc=5",
-            "is_0050": false,
-            "is_financial_holding": false,
-            "is_super_yield": false,
-            "is_fast_fill": false,
-            "is_outlier_warning": false,
-            "is_long_dividend": true,
-            "has_volatility_warning": false,
-            "pure_eps_ratio_avg": 100.0,
-            "capital_event": "",
-            "major_news_event": false,
-            "gift_name": "台塩 生技UP機能吸凍1盒 參考圖",
-            "gift_last_buy_date": "2026-04-22",
-            "is_evergreen": false,
-            "history_hits": [
-                "2026-08",
-                "2026-09"
-            ],
-            "last_hit_date": "2026-09-05",
-            "warning_status": "",
-            "is_returning": false,
-            "has_souvenir": true,
-            "souvenir_title": "台塩 生技UP機能吸凍1盒 參考圖",
-            "souvenir_last_buy_date": "2026-04-22"
-        },
-        {
             "symbol": "2006",
             "name": "東和鋼鐵",
             "is_niche_stable": false,
             "listed_count": 4,
-            "latest_price": 81.6,
-            "avg_vol_20d_sheets": 1942.0,
-            "dividend_yield_pct": 5.27,
+            "latest_price": 82.5,
+            "avg_vol_20d_sheets": 1385.0,
+            "dividend_yield_pct": 5.21,
             "dividend_amount": 4.3,
-            "beta": 0.154,
+            "beta": 0.1487,
             "avg_fill_dividend_days": 12.0,
             "failed_fill_count": 0,
             "is_dividend_spike": false,
             "last_year_eps": 6.47,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNa0VHd3FoRnVqaEtnWmJCYWp2TlAtcVpOU2ZJMzV6aGsyb3UtTy1mQTQtOVBhaUsycEY0MGw5eFVIX1RGaUQzc0kycjEzTkF3eEMyWHJwakxzZWRFLWFZUHBOYVZCck1uWEM5VzMxX1hZODN3UGhJNWtkQmR3VkhNYXRJQVAtWlVJMDJhVGJOY0tJOF9XMGxKMXMzS2ZVMUxkVVlHaFdkRk5fMjg3Z0V2TG9PcHRZSElDNFc5bm9DcnVRMVR4Q2hMaHd0TkR2TmxSV1ZKNjhvekEzVlZLd2Jremh1b0UzdW1mWng5a214TzAzNDNuNXNqQk1DQklIQ01rSGlyYTFQSUt5a0pmRnBMR0NxaXZBUk5qM3pTMjJwLVRPaTZGWnVKb2FudGM?oc=5",
+            "google_news_url": "https://tw.stock.yahoo.com/quote/2006/news",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
@@ -8053,7 +7821,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false,
             "has_souvenir": true,
@@ -8061,60 +7829,99 @@
             "souvenir_last_buy_date": "2026-03-19"
         },
         {
-            "symbol": "2312",
-            "name": "金寶",
-            "is_niche_stable": false,
+            "symbol": "2535",
+            "name": "達欣工",
+            "is_niche_stable": true,
             "listed_count": 1,
-            "latest_price": 32.85,
-            "avg_vol_20d_sheets": 12780.0,
-            "dividend_yield_pct": 1.83,
-            "dividend_amount": 0.6,
-            "beta": 1.0608,
-            "avg_fill_dividend_days": 1.0,
+            "latest_price": 89.8,
+            "avg_vol_20d_sheets": 229.0,
+            "dividend_yield_pct": 5.12,
+            "dividend_amount": 4.6,
+            "beta": 0.3291,
+            "avg_fill_dividend_days": 0.5,
             "failed_fill_count": 0,
-            "is_dividend_spike": true,
-            "last_year_eps": 1.05,
+            "is_dividend_spike": false,
+            "last_year_eps": 6.5,
             "recent_news_alert": true,
-            "google_news_url": "https://news.google.com/rss/articles/CBMivgNBVV95cUxPT0hncDRPQTdIaV9kMmh3aFZERmk5N2dqZjE5bGtySXJHTWdkMXc5X1pjTTZBdWotbGhscXJIbjdnTGZfNnZwYWQ0UGIwazB2X185REZuUzhnbTBxUDBIQW8wLXhwTkI2MzRxUUdTa0pUQVBtT2RBN19GaHJ5bzk5Mjh0SDNyTVZDMTZOWGxZVTU4OWUzU01wbnkydUFlY2RKT3V1UjQ5NUxCazU2dnN4bTFYTjJlVDJQRm8xeEw2RWxUeWw0cjVIbHVfaXdBZnRpRmJXOU0wV28yVWt2empRbE1yNk00a09ZdWthRVhrdDZ0TVFzdXpNS1A5VUVfdGZlTmduQ1RxMXViVm5RdkM1djFlalE3bVhXTTEzYnVMeDFMTi1GMTRtZTktdERON0NyQUdkOFJOY1lkdUJBN0hQYWktOXAxU0F3Y1JYamVqdGpMaVh3U0pRZjVfTF8zMmtxVVpoNlc2M0ticF9zcjN4Z2JDWFc0SFlSSXNKMjBtck5oNEJOaWNKR1VTUzdHTXUwcHM5WXZ1akNHSk95OEljTTM0M19lb01xRGM0dFZTQVh1d0NHY25lVlJpM2J3QQ?oc=5",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1oY2pfanJZVU9kc3UzeUl4TkhMcDI2cTRZcGRrRGxad1FvcHVDZ0dOVFpfTldDdklyTVVkWDh2QjRmMDc3Y0JKbUR3dlZCeDZEaEpj?oc=5",
             "is_0050": false,
             "is_financial_holding": false,
             "is_super_yield": false,
             "is_fast_fill": true,
             "is_outlier_warning": false,
             "is_long_dividend": true,
-            "has_volatility_warning": true,
-            "pure_eps_ratio_avg": 95.0,
+            "has_volatility_warning": false,
+            "pure_eps_ratio_avg": 100.0,
             "capital_event": "",
             "major_news_event": false,
-            "gift_name": "再生布卡夾 參考圖",
-            "gift_last_buy_date": "2026-03-24",
+            "gift_name": "BLACK HAMMER耐熱玻璃法式濾壓壺 參考圖",
+            "gift_last_buy_date": "2026-04-08",
             "is_evergreen": false,
             "history_hits": [
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
+            "warning_status": "",
+            "is_returning": true,
+            "has_souvenir": true,
+            "souvenir_title": "BLACK HAMMER耐熱玻璃法式濾壓壺 參考圖",
+            "souvenir_last_buy_date": "2026-04-08"
+        },
+        {
+            "symbol": "6136",
+            "name": "富爾特",
+            "is_niche_stable": true,
+            "listed_count": 1,
+            "latest_price": 24.7,
+            "avg_vol_20d_sheets": 206.0,
+            "dividend_yield_pct": 4.7,
+            "dividend_amount": 1.16,
+            "beta": 0.1663,
+            "avg_fill_dividend_days": 0.0,
+            "failed_fill_count": 0,
+            "is_dividend_spike": false,
+            "last_year_eps": 0.89,
+            "recent_news_alert": true,
+            "google_news_url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8wRDdVcWdDTFVqeFp4NzV4aC13ZkM4ZE5lLWo3YVhFOWJ4dW1sYUIxWWlzN0NyT3V2ZDV6R2pKQVNTVnpjbFdENUxyYVpiaVE?oc=5",
+            "is_0050": false,
+            "is_financial_holding": false,
+            "is_super_yield": false,
+            "is_fast_fill": false,
+            "is_outlier_warning": false,
+            "is_long_dividend": true,
+            "has_volatility_warning": false,
+            "pure_eps_ratio_avg": 75.0,
+            "capital_event": "",
+            "major_news_event": false,
+            "gift_name": "手工香皂 參考圖",
+            "gift_last_buy_date": "2026-04-15",
+            "is_evergreen": false,
+            "history_hits": [
+                "2026-09"
+            ],
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false,
             "has_souvenir": true,
-            "souvenir_title": "再生布卡夾 參考圖",
-            "souvenir_last_buy_date": "2026-03-24"
+            "souvenir_title": "手工香皂 參考圖",
+            "souvenir_last_buy_date": "2026-04-15"
         },
         {
             "symbol": "2890",
             "name": "永豐金",
             "is_niche_stable": false,
             "listed_count": 5,
-            "latest_price": 42.85,
-            "avg_vol_20d_sheets": 24070.0,
-            "dividend_yield_pct": 2.57,
+            "latest_price": 43.7,
+            "avg_vol_20d_sheets": 25141.0,
+            "dividend_yield_pct": 2.52,
             "dividend_amount": 1.1,
-            "beta": 0.3804,
+            "beta": 0.3693,
             "avg_fill_dividend_days": 0.0,
             "failed_fill_count": 1,
             "is_dividend_spike": true,
             "last_year_eps": 1.656863,
             "recent_news_alert": true,
-            "google_news_url": "https://tw.stock.yahoo.com/quote/2890/news",
+            "google_news_url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPYTl5X2JpX1BJV2lxemdaQVM3T3RTUWN4bmtKSDFXbDRxZzNib3hqWUJtZHRJSVlZTjdiSWxCdGMyWS1uQTBqYmRCVlVZWU9xbkVDN01DYTIzQzZFcVQtcUJFNWpRVXIxZExYS2xuN2Z6Z1hpZWQ1M0JicDBCaG9RVFV4aTkyU3c4akFxOU9KN25xcG9ySXdvWHhJUEtKTlNIMHRQNTNueldWVTAta1VGOHUzZFI5WHFORVhUSFltT3hRNmM1TzIyajJua3plU1pmb01BdG81dkJFc1JVc1ZWV2Y4UEdhTVZVd2FoX1VTekhmd0MxQnN5NlNSNElnUzcwUklSV2VUZEtVbkxZMTdReVA1MnRheV9zVFFlLWkzV0pmeWdrQm02WU40WkkxOXBQelJZWEdNanltRnhNTm92engtTQ?oc=5",
             "is_0050": true,
             "is_financial_holding": true,
             "is_super_yield": false,
@@ -8135,7 +7942,7 @@
                 "2026-08",
                 "2026-09"
             ],
-            "last_hit_date": "2026-09-05",
+            "last_hit_date": "2026-09-12",
             "warning_status": "",
             "is_returning": false,
             "has_souvenir": true,
