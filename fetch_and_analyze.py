@@ -7,11 +7,11 @@ import time
 import urllib.parse
 from datetime import datetime, timedelta
 import xml.etree.ElementTree as ET
-import urllib3 
+import urllib3
 import os
 import sys
-import random 
-import argparse # 🆕 引入 argparse 以支援測試模式
+import random
+import argparse  # 🆕 引入 argparse 以支援測試模式
 
 # 停用不安全請求的警告
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
@@ -23,68 +23,126 @@ USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:123.0) Gecko/20100101 Firefox/123.0",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0",
 ]
 
-# 台灣 50 (0050) 成分股名單 (2026 年 6 月生效最新版)
-TW_50_LIST = [
-    "1216", "1303", "2059", "2301", "2303", "2308", "2317", "2327", "2330", "2344",
-    "2345", "2357", "2360", "2368", "2382", "2383", "2395", "2408", "2412", "2449",
-    "2454", "2603", "2880", "2881", "2882", "2883", "2884", "2885", "2886", "2887",
-    "2890", "2891", "2892", "3008", "3017", "3037", "3045", "3231", "3443", "3653",
-    "3661", "3665", "3711", "4904", "4958", "5880", "6505", "6669", "7769", "8046"
+# 台灣 50 (0050) 成分股名單 (2026 年 11 月生效最新版)
+TW_50_LIST = TW_50_LIST = [
+    "1216",
+    "1303",
+    "2059",
+    "2301",
+    "2303",
+    "2308",
+    "2317",
+    "2327",
+    "2330",
+    "2344",
+    "2345",
+    "2357",
+    "2360",
+    "2368",
+    "2382",
+    "2383",
+    "2395",
+    "2408",
+    "2412",
+    "2449",
+    "2454",
+    "2603",
+    "2880",
+    "2881",
+    "2882",
+    "2883",
+    "2884",
+    "2885",
+    "2886",
+    "2887",
+    "2890",
+    "2891",
+    "2892",
+    "3008",
+    "3017",
+    "3037",
+    "3045",
+    "3231",
+    "3443",
+    "3653",
+    "3665",
+    "3711",
+    "4904",
+    "4958",
+    "5880",
+    "6446",
+    "6505",
+    "6669",
+    "7769",
+    "8046",
 ]
-# 🆕 政府特許金控業名單
+# 🆕 政府特許金控業名單（2026最新：共13家上市金控，已移除下市的2888新光金）
 FINANCIAL_HOLDINGS = [
-    "2880", "2881", "2882", "2883", "2884", "2885", "2886", "2887", 
-    "2888", "2889", "2890", "2891", "2892", "5880"
+    "2880",  # 華南金
+    "2881",  # 富邦金
+    "2882",  # 國泰金
+    "2883",  # 凱基金（原開發金）
+    "2884",  # 玉山金
+    "2885",  # 元大金
+    "2886",  # 兆豐金
+    "2887",  # 台新新光金（原台新金，2025/07 併入 2888 新光金）
+    "2889",  # 國票金
+    "2890",  # 永豐金
+    "2891",  # 中信金
+    "2892",  # 第一金
+    "5880",  # 合庫金
 ]
+
 
 def get_all_tw_stocks():
     print("🔍 正在連線至證交所 OpenAPI，獲取最新台股名單...")
     url = "https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL"
-    
+
     max_retries = 3
     for attempt in range(max_retries):
         try:
             headers = {"User-Agent": random.choice(USER_AGENTS)}
             response = requests.get(url, headers=headers, timeout=15, verify=False)
-            
+
             # 攔截 429 Too Many Requests 或 403 拒絕連線
             if response.status_code in [403, 429]:
                 raise ConnectionError(f"伺服器拒絕連線 (HTTP {response.status_code})")
-            response.raise_for_status() 
-            
+            response.raise_for_status()
+
             data = response.json()
             stock_dict = {}
             for item in data:
-                code = item.get('Code', '').strip()
-                name = item.get('Name', '').strip()
-                if len(code) == 4 and code.isdigit() and not code.startswith('0'):
-                    yf_symbol = f"{code}.TW" 
+                code = item.get("Code", "").strip()
+                name = item.get("Name", "").strip()
+                if len(code) == 4 and code.isdigit() and not code.startswith("0"):
+                    yf_symbol = f"{code}.TW"
                     stock_dict[yf_symbol] = name
-                    
+
             print(f"✅ 成功獲取名單！共計找出 {len(stock_dict)} 檔上市普通股。")
             return stock_dict
-            
+
         except Exception as e:
             if attempt < max_retries - 1:
                 # 指數型休眠：3秒 -> 6秒 -> 12秒 + Jitter(隨機微調)
-                sleep_time = (2 ** attempt) * 3 + random.uniform(0.5, 1.5)
+                sleep_time = (2**attempt) * 3 + random.uniform(0.5, 1.5)
                 print(f"  ⚠️ 獲取名單失敗 ({e})，等待 {sleep_time:.1f} 秒後重試...")
                 time.sleep(sleep_time)
             else:
                 print(f"❌ 嚴重錯誤：獲取清單連續失敗 {max_retries} 次，程式終止。")
                 sys.exit(1)
 
+
 def get_warning_disposal_stocks():
     """🆕 抓取證交所今日的 注意股 與 處置股"""
     print("🔍 正在獲取最新的「注意股」與「處置股」名單...")
     warning_list = set()
     disposal_list = {}
-    
+
     headers = {"User-Agent": random.choice(USER_AGENTS)}
-    
+
     # 1. 抓取注意股 (Notice)
     try:
         url_notice = "https://openapi.twse.com.tw/v1/announcement/notice"
@@ -112,35 +170,41 @@ def get_warning_disposal_stocks():
     except Exception as e:
         print(f"  ⚠️ 處置股 API 抓取失敗: {e}")
 
-    print(f"✅ 成功抓取！今日共有 {len(warning_list)} 檔注意股，{len(disposal_list)} 檔處置股。")
+    print(
+        f"✅ 成功抓取！今日共有 {len(warning_list)} 檔注意股，{len(disposal_list)} 檔處置股。"
+    )
     return warning_list, disposal_list
+
 
 def check_listing_years(ticker_obj, target_years=10):
     try:
         hist = ticker_obj.history(period="max")
-        if hist.empty: return False, None
+        if hist.empty:
+            return False, None
         first_trade_date = hist.index.min().to_pydatetime().date()
         listing_years = (datetime.now().date() - first_trade_date).days / 365.25
         return listing_years >= target_years, first_trade_date.strftime("%Y-%m-%d")
     except Exception:
         return False, None
 
+
 def get_eps_history(ticker_obj, years=5):
     try:
         financials = ticker_obj.financials
-        if financials.empty: return None, False
-        
-        if 'Basic EPS' in financials.index:
-            eps_row = financials.loc['Basic EPS']
-        elif 'Diluted EPS' in financials.index:
-            eps_row = financials.loc['Diluted EPS']
+        if financials.empty:
+            return None, False
+
+        if "Basic EPS" in financials.index:
+            eps_row = financials.loc["Basic EPS"]
+        elif "Diluted EPS" in financials.index:
+            eps_row = financials.loc["Diluted EPS"]
         else:
             return None, False
 
         eps_data = eps_row.dropna().head(years).astype(float).tolist()
-        if not eps_data or len(eps_data) < 4: 
+        if not eps_data or len(eps_data) < 4:
             return eps_data, False
-            
+
         eps_data.reverse()
         profitable_years = sum(1 for eps in eps_data if eps is not None and eps > 0)
         last_year_profitable = (eps_data[-1] is not None) and (eps_data[-1] > 0)
@@ -148,17 +212,25 @@ def get_eps_history(ticker_obj, years=5):
     except Exception:
         return None, False
 
+
 def calculate_beta_and_latest_price(symbol, target_ticker):
     try:
         end_date = datetime.now()
         start_date = end_date - timedelta(days=365)
-        data = yf.download([symbol, "^TWII"], start=start_date.strftime("%Y-%m-%d"), end=end_date.strftime("%Y-%m-%d"), progress=False)['Close']
-        if data.empty or symbol not in data.columns or "^TWII" not in data.columns: return None, None
-            
+        data = yf.download(
+            [symbol, "^TWII"],
+            start=start_date.strftime("%Y-%m-%d"),
+            end=end_date.strftime("%Y-%m-%d"),
+            progress=False,
+        )["Close"]
+        if data.empty or symbol not in data.columns or "^TWII" not in data.columns:
+            return None, None
+
         data = data.dropna()
         returns = data.pct_change().dropna()
-        if returns.empty: return None, None
-            
+        if returns.empty:
+            return None, None
+
         cov_matrix = np.cov(returns[symbol], returns["^TWII"])
         beta = cov_matrix[0, 1] / cov_matrix[1, 1]
         latest_price = float(data[symbol].iloc[-1])
@@ -166,21 +238,26 @@ def calculate_beta_and_latest_price(symbol, target_ticker):
     except Exception:
         return None, None
 
+
 def get_advanced_defense_stats(ticker_obj, eps_data, dividend_history):
     """
     計算 v2.0 深度防禦指標：盈餘純度推估 & 股本異動
     """
     pure_eps_ratio_avg = 100.0
     capital_event = ""
-    
+
     try:
         # 1. 股本異動偵測 (透過 yfinance 的 shares_full 取得歷史股數)
-        shares = ticker_obj.get_shares_full(start=datetime.now() - timedelta(days=365), end=None)
+        shares = ticker_obj.get_shares_full(
+            start=datetime.now() - timedelta(days=365), end=None
+        )
         if shares is not None and not shares.empty and len(shares) >= 2:
             oldest_shares = shares.iloc[0]
             latest_shares = shares.iloc[-1]
             if oldest_shares > 0:
-                share_change_pct = ((latest_shares - oldest_shares) / oldest_shares) * 100
+                share_change_pct = (
+                    (latest_shares - oldest_shares) / oldest_shares
+                ) * 100
                 if abs(share_change_pct) > 5.0:
                     capital_event = f"股本大幅變動 ({share_change_pct:+.1f}%)"
 
@@ -191,8 +268,8 @@ def get_advanced_defense_stats(ticker_obj, eps_data, dividend_history):
             for i in range(min(len(eps_data), 3)):
                 eps = eps_data[i]
                 # 尋找對應年份的股息 (簡化對應，抓歷史前幾筆)
-                div = dividend_history[i]['amount'] if i < len(dividend_history) else 0
-                
+                div = dividend_history[i]["amount"] if i < len(dividend_history) else 0
+
                 if eps is not None and eps > 0 and div > 0:
                     # 如果發的錢大於賺的錢，純度下降
                     payout_ratio = div / eps
@@ -201,60 +278,81 @@ def get_advanced_defense_stats(ticker_obj, eps_data, dividend_history):
                         purity_scores.append((1 / payout_ratio) * 100)
                     else:
                         purity_scores.append(100.0)
-                        
+
             if purity_scores:
                 pure_eps_ratio_avg = round(sum(purity_scores) / len(purity_scores), 1)
 
     except Exception as e:
-        pass # 容錯處理，拿不到資料就保持預設值
+        pass  # 容錯處理，拿不到資料就保持預設值
 
     return pure_eps_ratio_avg, capital_event
+
 
 def get_dividend_stats(ticker_obj, symbol, latest_price):
     try:
         dividends = ticker_obj.dividends
         # 🆕 擴充回傳兩個布林值: is_outlier_warning, is_fast_fill，發生錯誤時預設給 False
-        if dividends.empty: return [], None, 0, False, False, False, False, 0, False, 0, False, False, False
-            
+        if dividends.empty:
+            return (
+                [],
+                None,
+                0,
+                False,
+                False,
+                False,
+                False,
+                0,
+                False,
+                0,
+                False,
+                False,
+                False,
+            )
+
         # ==========================================
         # 🆕 修正：動態判定配息頻率，精準抓取「最新一年度」的股息
         # ==========================================
-        recent_4y = dividends[dividends.index >= datetime.now(dividends.index.tzinfo) - timedelta(days=4*365)]
+        recent_4y = dividends[
+            dividends.index
+            >= datetime.now(dividends.index.tzinfo) - timedelta(days=4 * 365)
+        ]
         if not recent_4y.empty:
             # 算出這檔股票每年平均發幾次股息 (取中位數)
             freq = int(round(recent_4y.groupby(recent_4y.index.year).count().median()))
         else:
             freq = 1
-            
-        freq = max(1, freq) # 防呆，最少為 1 次 (年配息)
-        
+
+        freq = max(1, freq)  # 防呆，最少為 1 次 (年配息)
+
         # 直接抓取「最後 freq 次」的配息金額加總 (完美避開 365 天內遇到兩次除息的雙重計算)
         total_div_1y = float(dividends.tail(freq).sum()) if not dividends.empty else 0
         dividend_yield = (total_div_1y / latest_price) * 100 if latest_price > 0 else 0
 
-        ten_years_ago = datetime.now(dividends.index.tzinfo) - timedelta(days=10*365)
+        ten_years_ago = datetime.now(dividends.index.tzinfo) - timedelta(days=10 * 365)
         divs_10y = dividends[dividends.index >= ten_years_ago]
         is_long_dividend_10y = len(set(d.year for d in divs_10y.index)) >= 9
 
-        fifteen_years_ago = datetime.now(dividends.index.tzinfo) - timedelta(days=15*365)
+        fifteen_years_ago = datetime.now(dividends.index.tzinfo) - timedelta(
+            days=15 * 365
+        )
         divs_15y = dividends[dividends.index >= fifteen_years_ago]
         is_long_dividend_15y = len(set(d.year for d in divs_15y.index)) >= 14
 
-        five_years_ago = datetime.now(dividends.index.tzinfo) - timedelta(days=5*365)
+        five_years_ago = datetime.now(dividends.index.tzinfo) - timedelta(days=5 * 365)
         divs_5y = dividends[dividends.index >= five_years_ago]
         yearly_divs = divs_5y.groupby(divs_5y.index.year).sum()
-        
+
         has_volatility = False
-        is_dividend_spike = False 
-        
-        if len(yearly_divs) < 4: 
+        is_dividend_spike = False
+
+        if len(yearly_divs) < 4:
             has_volatility = True
         elif len(yearly_divs) >= 3:
             max_div = yearly_divs.max()
             min_div = yearly_divs.min()
             if min_div <= 0 or (max_div / min_div) >= 2.0:
                 has_volatility = True
-            
+
             div_median = np.median(yearly_divs)
             if yearly_divs.iloc[-1] > (div_median * 1.5):
                 is_dividend_spike = True
@@ -264,13 +362,13 @@ def get_dividend_stats(ticker_obj, symbol, latest_price):
         # ==========================================
         hist_prices_5y = ticker_obj.history(start=five_years_ago - timedelta(days=30))
         fill_days_list_5y = []
-        
+
         for date, amount in divs_5y.items():
             prices_before = hist_prices_5y[hist_prices_5y.index < date]
             if not prices_before.empty:
-                target_price = prices_before['Close'].iloc[-1]
+                target_price = prices_before["Close"].iloc[-1]
                 prices_after = hist_prices_5y[hist_prices_5y.index >= date]
-                filled = prices_after[prices_after['Close'] >= target_price]
+                filled = prices_after[prices_after["Close"] >= target_price]
                 if not filled.empty:
                     fill_days_list_5y.append((filled.index[0] - date).days)
 
@@ -279,19 +377,33 @@ def get_dividend_stats(ticker_obj, symbol, latest_price):
         # ==========================================
         # 🆕 任務 1.5：近 3 年紅線抽驗與 Fast Fill 判定
         # ==========================================
-        three_years_ago = datetime.now(dividends.index.tzinfo) - timedelta(days=3*365)
+        three_years_ago = datetime.now(dividends.index.tzinfo) - timedelta(days=3 * 365)
         recent_divs = dividends[dividends.index >= three_years_ago]
-        
-        if recent_divs.empty: 
-            return [], None, dividend_yield, False, is_long_dividend_10y, is_long_dividend_15y, has_volatility, 0, is_dividend_spike, total_div_1y, False, False, False
+
+        if recent_divs.empty:
+            return (
+                [],
+                None,
+                dividend_yield,
+                False,
+                is_long_dividend_10y,
+                is_long_dividend_15y,
+                has_volatility,
+                0,
+                is_dividend_spike,
+                total_div_1y,
+                False,
+                False,
+                False,
+            )
 
         current_year = datetime.now().year
         has_current_year = any(d.year == current_year for d in recent_divs.index)
         is_estimated = False
         history = []
-        
-        fault_count_90d = 0   
-        is_fast_fill = True   
+
+        fault_count_90d = 0
+        is_fast_fill = True
         now_tz = datetime.now(dividends.index.tzinfo)
 
         # 🆕 新增：追蹤歷年除息前股價與跌幅標記
@@ -301,16 +413,16 @@ def get_dividend_stats(ticker_obj, symbol, latest_price):
         for date, amount in recent_divs.items():
             date_str = date.strftime("%Y-%m-%d")
             history.append({"ex_dividend_date": date_str, "amount": float(amount)})
-            
-            prices_before = hist_prices_5y[hist_prices_5y.index < date] 
+
+            prices_before = hist_prices_5y[hist_prices_5y.index < date]
             if not prices_before.empty:
-                target_price = prices_before['Close'].iloc[-1]
-                
+                target_price = prices_before["Close"].iloc[-1]
+
                 # 🆕 記錄每一次除息前一天的收盤價
                 ex_dividend_prices.append(target_price)
                 prices_after = hist_prices_5y[hist_prices_5y.index >= date]
-                filled = prices_after[prices_after['Close'] >= target_price]
-                
+                filled = prices_after[prices_after["Close"] >= target_price]
+
                 if not filled.empty:
                     days_to_fill = (filled.index[0] - date).days
                     if days_to_fill > 90:
@@ -322,11 +434,11 @@ def get_dividend_stats(ticker_obj, symbol, latest_price):
                     days_since_ex = (now_tz - date).days
                     if days_since_ex > 90:
                         fault_count_90d += 1
-                    is_fast_fill = False # 尚未填息就不算 fast fill
+                    is_fast_fill = False  # 尚未填息就不算 fast fill
         # 🆕 執行 5% 跌幅檢查：兩兩比對近三年的除息前股價
         if len(ex_dividend_prices) >= 2:
             for i in range(1, len(ex_dividend_prices)):
-                prev_year_price = ex_dividend_prices[i-1]
+                prev_year_price = ex_dividend_prices[i - 1]
                 curr_year_price = ex_dividend_prices[i]
                 # 若今年的價格低於去年的 95% (即跌幅超過 5%)
                 if curr_year_price < (prev_year_price * 0.95):
@@ -335,85 +447,130 @@ def get_dividend_stats(ticker_obj, symbol, latest_price):
 
         # 單次容錯判定：剛好 1 次失誤，且 5 年中位數極為優秀(<=15)
         is_outlier_warning = bool((fault_count_90d == 1) and (median_fill_days <= 15))
-        
+
         if not has_current_year and len(history) > 0:
-            history.append({"ex_dividend_date": f"{current_year}-XX-XX", "amount": float(history[-1]['amount']), "is_estimated": True})
+            history.append(
+                {
+                    "ex_dividend_date": f"{current_year}-XX-XX",
+                    "amount": float(history[-1]["amount"]),
+                    "is_estimated": True,
+                }
+            )
             is_estimated = True
-            
-         # 👇 回傳值擴充，加上最後一個 is_price_dropping_severely
-        return history, round(float(median_fill_days), 1), round(dividend_yield, 2), is_estimated, is_long_dividend_10y, is_long_dividend_15y, has_volatility, fault_count_90d, is_dividend_spike, total_div_1y, is_outlier_warning, is_fast_fill, is_price_dropping_severely
+
+        # 👇 回傳值擴充，加上最後一個 is_price_dropping_severely
+        return (
+            history,
+            round(float(median_fill_days), 1),
+            round(dividend_yield, 2),
+            is_estimated,
+            is_long_dividend_10y,
+            is_long_dividend_15y,
+            has_volatility,
+            fault_count_90d,
+            is_dividend_spike,
+            total_div_1y,
+            is_outlier_warning,
+            is_fast_fill,
+            is_price_dropping_severely,
+        )
     except Exception:
         return [], None, 0, False, False, False, False, 0, False, 0, False, False, False
+
 
 def get_twse_default_list():
     """抓取證交所今日巨額違約交割名單"""
     print("🔍 [官方直連] 正在檢查證交所「巨額違約交割」名單...")
     url = "https://www.twse.com.tw/rwd/zh/settlement/TWT14U?response=json"
     default_stocks = set()
-    
+
     sleep_time = random.uniform(1.5, 3.5)
     print(f"  ⏳ 啟動防護：隨機休眠 {sleep_time:.2f} 秒...")
     time.sleep(sleep_time)
-    
+
     try:
         headers = {"User-Agent": random.choice(USER_AGENTS)}
         res = requests.get(url, headers=headers, timeout=10, verify=False)
         res.raise_for_status()
         data = res.json()
-        
-        if 'data' in data:
-            for row in data['data']:
+
+        if "data" in data:
+            for row in data["data"]:
                 for item in row:
                     item_str = str(item).strip()
                     if len(item_str) == 4 and item_str.isdigit():
                         default_stocks.add(item_str)
-                        
+
         print(f"✅ 官方違約交割名單抓取完成！共發現 {len(default_stocks)} 檔違約股。")
         return list(default_stocks)
     except Exception as e:
         print(f"  ⚠️ 官方違約名單 API 阻擋或無資料，將啟動新聞關鍵字備援防護。")
         return []
 
+
 def check_news_risk(symbol, name):
     """雙層關鍵字司法排雷與新聞掃描 (7天回溯)"""
     # 👇 擴充：將「下市」加入 FATAL_KEYWORDS 致命名單中首位
-    FATAL_KEYWORDS = ["下市", "起訴", "判刑", "收押", "羈押", "掏空", "財報不實", "非常規交易", "重罰", "勒令停業", "撤銷發行", "內線交易", "違約交割"]
-    WARNING_KEYWORDS = ["檢調", "搜索", "約談", "交保", "涉嫌", "調查中", "釐清", "舉發"]
-    
+    FATAL_KEYWORDS = [
+        "下市",
+        "起訴",
+        "判刑",
+        "收押",
+        "羈押",
+        "掏空",
+        "財報不實",
+        "非常規交易",
+        "重罰",
+        "勒令停業",
+        "撤銷發行",
+        "內線交易",
+        "違約交割",
+    ]
+    WARNING_KEYWORDS = [
+        "檢調",
+        "搜索",
+        "約談",
+        "交保",
+        "涉嫌",
+        "調查中",
+        "釐清",
+        "舉發",
+    ]
+
     search_query = f"{symbol} {name} (site:tw.stock.yahoo.com OR site:cnyes.com OR site:money.udn.com)"
     query = urllib.parse.quote(search_query)
     url = f"https://news.google.com/rss/search?q={query}&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
-    
+
     sleep_time = random.uniform(1.5, 3.5)
     time.sleep(sleep_time)
-    
+
     try:
         headers = {"User-Agent": random.choice(USER_AGENTS)}
         res = requests.get(url, headers=headers, timeout=10, verify=False)
         res.raise_for_status()
-        
+
         root = ET.fromstring(res.content)
         seven_days_ago = datetime.now() - timedelta(days=7)
-        
-        risk_level = "SAFE" 
+
+        risk_level = "SAFE"
         risk_reason = ""
         news_url = ""
-        first_news_url = "" # 🆕 備援 1：用來接住最近期的第一篇普通新聞
-        
-        for item in root.findall('.//item'):
-            pub_date_str = item.find('pubDate').text
+        first_news_url = ""  # 🆕 備援 1：用來接住最近期的第一篇普通新聞
+
+        for item in root.findall(".//item"):
+            pub_date_str = item.find("pubDate").text
             try:
                 pub_date = datetime.strptime(pub_date_str, "%a, %d %b %Y %H:%M:%S %Z")
                 if pub_date > seven_days_ago:
-                    title = item.find('title').text
-                    link = item.find('link').text
-                    
+                    title = item.find("title").text
+                    link = item.find("link").text
+
                     # ==========================================
                     # 🛡️ 核心防誤殺機制：過濾 Google 亂抓的無關新聞
                     # ==========================================
                     # 移除 -KY 方便比對 (例如 臻鼎-KY -> 臻鼎)
                     clean_name = name.replace("-KY", "").replace("*", "")
-                    
+
                     # 如果標題連「公司名稱」或「股票代號」都沒有，代表是誤抓，直接跳過這篇！
                     if clean_name not in title and symbol not in title:
                         continue
@@ -421,69 +578,78 @@ def check_news_risk(symbol, name):
                     # 🆕 記下掃描到的第一篇【真正相關】的新聞 (不論有沒有違規，先存再說)
                     if not first_news_url:
                         first_news_url = link
-                    
+
                     if any(kw in title for kw in FATAL_KEYWORDS):
                         fatal_kw = next(kw for kw in FATAL_KEYWORDS if kw in title)
                         risk_level = "FATAL"
                         risk_reason = fatal_kw
                         news_url = link
-                        break 
-                    
-                    elif risk_level == "SAFE" and any(kw in title for kw in WARNING_KEYWORDS):
+                        break
+
+                    elif risk_level == "SAFE" and any(
+                        kw in title for kw in WARNING_KEYWORDS
+                    ):
                         warn_kw = next(kw for kw in WARNING_KEYWORDS if kw in title)
                         risk_level = "WARNING"
                         risk_reason = warn_kw
                         news_url = link
-                        
+
             except Exception:
                 continue
-                
+
         # ==========================================
         # 🆕 網址三層備援機制
         # ==========================================
         if not news_url:
-            news_url = first_news_url # 1. 若無司法問題，按鈕給予最新財經新聞
-            
+            news_url = first_news_url  # 1. 若無司法問題，按鈕給予最新財經新聞
+
         if not news_url:
-            news_url = f"https://tw.stock.yahoo.com/quote/{symbol}/news" # 2. 若七天內完全沒新聞，終極備援給 Yahoo 個股專區
-            
+            news_url = f"https://tw.stock.yahoo.com/quote/{symbol}/news"  # 2. 若七天內完全沒新聞，終極備援給 Yahoo 個股專區
+
         return risk_level, risk_reason, news_url
-        
+
     except Exception as e:
         # 🆕 備援 3：即使 API 斷線，依然給予 Yahoo 專屬連結保底
         return "SAFE", "", f"https://tw.stock.yahoo.com/quote/{symbol}/news"
-    
+
+
 def save_progress(filename, data):
     # ==========================================
     # 🛡️ 升級：防呆檢查 (Assertion)
     # ==========================================
-    total_passed = len(data.get("defensive_stocks", [])) + len(data.get("growth_stocks", [])) + len(data.get("financial_stocks", []))
+    total_passed = (
+        len(data.get("defensive_stocks", []))
+        + len(data.get("growth_stocks", []))
+        + len(data.get("financial_stocks", []))
+    )
     processed_count = len(data.get("processed_symbols", []))
-    
+
     # 防護邏輯：如果系統已經處理了超過 100 檔股票，但「合格清單」卻是 0 檔
     # 這極度不合理（代表 API 可能被擋或壞了），此時強制攔截，拒絕覆寫舊檔案！
     if total_passed == 0 and processed_count > 100:
         print(f"\n🚨 [防呆攔截] 系統已掃描 {processed_count} 檔，但合格數為 0！")
         print("為保護您的舊資料不被空白覆蓋，本次操作拒絕存檔。")
-        return # 直接退出函數，不執行下方的覆寫動作
+        return  # 直接退出函數，不執行下方的覆寫動作
 
     # 原本的存檔邏輯保持不變
     data["last_update"] = datetime.now().strftime("%Y-%m-%d")
-    with open(filename, 'w', encoding='utf-8') as f:
+    with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=4)
-        
-    with open('rejected_stocks.json', 'w', encoding='utf-8') as f:
+
+    with open("rejected_stocks.json", "w", encoding="utf-8") as f:
         json.dump(data.get("rejected_stocks", []), f, ensure_ascii=False, indent=4)
+
+
 def send_telegram_notification(message):
     # 🚨 請將下方兩行引號內的文字，替換成你剛剛拿到的 Token 與 ID
-    TOKEN = "在這裡貼上你的_BOT_TOKEN" 
+    TOKEN = "在這裡貼上你的_BOT_TOKEN"
     CHAT_ID = "在這裡貼上你的_CHAT_ID"
-    
+
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
     payload = {
         "chat_id": CHAT_ID,
         "text": message,
-        "parse_mode": "HTML" # 支援簡單的粗體格式
+        "parse_mode": "HTML",  # 支援簡單的粗體格式
     }
     try:
         # 使用 requests 發送，設定 10 秒 timeout 避免卡死
@@ -491,63 +657,73 @@ def send_telegram_notification(message):
     except Exception as e:
         print(f"⚠️ Telegram 通知發送失敗: {e}")
 
+
 def main():
-    import time # 確保有載入 time
-    start_time = time.time() # 🆕 記錄起始時間
-    
+    import time  # 確保有載入 time
+
+    start_time = time.time()  # 🆕 記錄起始時間
+
     parser = argparse.ArgumentParser(description="台灣股市除權息過濾與分類系統")
-    parser.add_argument('--test', action='store_true', help="僅測試 0050 成分股以加速開發")
+    parser.add_argument(
+        "--test", action="store_true", help="僅測試 0050 成分股以加速開發"
+    )
     args = parser.parse_args()
 
     print("啟動財務數據工程師腳本 (全台股嚴選資優生版 + 淘汰追蹤)...")
     schedule = get_all_tw_stocks()
-    
+
     # 🆕 呼叫新函數，把警示黑名單先抓下來存放在記憶體
     notice_set, disposal_dict = get_warning_disposal_stocks()
 
     # 👇 加入這一行：在開始掃描股票前，先獲取違約交割名單
     default_list = get_twse_default_list()
-    
+
     # 🆕 若啟用 --test，覆寫 schedule 以進行精準防護測試
     if args.test:
-        print("\n🧪 [測試模式] 已啟動！為確保測試涵蓋率，將掃描「0050成分股」並自動加入「今日所有注意/處置股」...")
-        
+        print(
+            "\n🧪 [測試模式] 已啟動！為確保測試涵蓋率，將掃描「0050成分股」並自動加入「今日所有注意/處置股」..."
+        )
+
         # 將 0050 名單與今日抓到的警示黑名單合併
         test_targets = set(TW_50_LIST)
         test_targets.update(notice_set)
         test_targets.update(disposal_dict.keys())
-        
-        # 過濾出我們需要的測試名單
-        schedule = {k: v for k, v in schedule.items() if k.split('.')[0] in test_targets}
 
-    output_filename = "stock_data.json" 
-    
+        # 過濾出我們需要的測試名單
+        schedule = {
+            k: v for k, v in schedule.items() if k.split(".")[0] in test_targets
+        }
+
+    output_filename = "stock_data.json"
+
     # 🆕 擴充 JSON 結構 (加上 warning_stocks)
     results = {
-        "defensive_stocks": [], 
-        "growth_stocks": [], 
-        "financial_stocks": [], 
-        "souvenir_stocks": [],  
-        "warning_stocks": [],        # 🆕 新增：被處置/注意但體質良好的警示股
-        "recent_dropped_stocks": [], 
+        "defensive_stocks": [],
+        "growth_stocks": [],
+        "financial_stocks": [],
+        "souvenir_stocks": [],
+        "warning_stocks": [],  # 🆕 新增：被處置/注意但體質良好的警示股
+        "recent_dropped_stocks": [],
         "processed_symbols": [],
         "rejected_stocks": [],
         "last_update": "",
-        "last_0050_reminder_month": ""  # 🆕 新增欄位：用來記憶上一次發送 0050 提醒的月份
+        "last_0050_reminder_month": "",  # 🆕 新增欄位：用來記憶上一次發送 0050 提醒的月份
     }
-    
-    history_listed_counts = {} # 🆕 紀錄歷史上榜次數
+
+    history_listed_counts = {}  # 🆕 紀錄歷史上榜次數
     previous_good_stocks = {}  # 🆕 紀錄上週的合格名單
 
     if os.path.exists(output_filename):
         print(f"📦 發現既有存檔 {output_filename}，正在提取歷史上榜紀錄...")
         try:
-            with open(output_filename, 'r', encoding='utf-8') as f:
+            with open(output_filename, "r", encoding="utf-8") as f:
                 saved_data = json.load(f)
 
                 # 🆕 將舊的發送紀錄讀取進來，這樣重新執行時才不會遺失記憶
-                results["last_0050_reminder_month"] = saved_data.get("last_0050_reminder_month", "")
-                
+                results["last_0050_reminder_month"] = saved_data.get(
+                    "last_0050_reminder_month", ""
+                )
+
                 # 提取舊榜單，用於比對跌出榜單與累計次數
                 for cat in ["defensive_stocks", "growth_stocks", "financial_stocks"]:
                     for s in saved_data.get(cat, []):
@@ -560,19 +736,23 @@ def main():
                 # ==========================================
                 now = datetime.now()
                 # 讀取舊名單 (相容舊版 dropped_stocks 或新版 recent_dropped_stocks)
-                dropped_list = saved_data.get("recent_dropped_stocks", saved_data.get("dropped_stocks", [])) 
+                dropped_list = saved_data.get(
+                    "recent_dropped_stocks", saved_data.get("dropped_stocks", [])
+                )
                 recent_dropped = []
-                seen_dropped_symbols = set() # 🆕 加入 Set 用於追蹤已加入的股票代號，防止載入時重複
-                
+                seen_dropped_symbols = (
+                    set()
+                )  # 🆕 加入 Set 用於追蹤已加入的股票代號，防止載入時重複
+
                 for s in dropped_list:
                     sym = s.get("symbol")
                     if sym in seen_dropped_symbols:
-                        continue # 如果已經處理過這檔，直接跳過
+                        continue  # 如果已經處理過這檔，直接跳過
 
                     drop_date_str = s.get("drop_date", "")
                     if drop_date_str:
                         drop_date = datetime.strptime(drop_date_str, "%Y-%m-%d")
-                        if (now - drop_date).days <= 30: # 僅保留 30 天內的
+                        if (now - drop_date).days <= 30:  # 僅保留 30 天內的
                             recent_dropped.append(s)
                             seen_dropped_symbols.add(sym)
                     else:
@@ -580,7 +760,7 @@ def main():
                         s["drop_date"] = now.strftime("%Y-%m-%d")
                         recent_dropped.append(s)
                         seen_dropped_symbols.add(sym)
-                
+
                 # 將清理後的名單寫回準備輸出的 results 字典中
                 results["recent_dropped_stocks"] = recent_dropped
                 # ==========================================
@@ -593,17 +773,17 @@ def main():
 
     count = 0
     total = len(schedule)
-    session_processed_count = 0 
-    
+    session_processed_count = 0
+
     try:
         for yf_symbol, name in schedule.items():
             count += 1
-            code = yf_symbol.split('.')[0] 
-            
+            code = yf_symbol.split(".")[0]
+
             if code in results["processed_symbols"]:
                 print(f"\n[{count}/{total}] ⏩ {code} {name} 已經處理過，跳過...")
                 continue
-                
+
             print(f"\n[{count}/{total}] 正在分析 {code} {name} ({yf_symbol})...")
 
             # 🌟 就是這裡！請補上這行，初始化 yfinance 的 Ticker 物件
@@ -611,99 +791,144 @@ def main():
 
             classified = False
             reject_reason = ""
-            current_news_url = "" # 🆕 新增：用來接住肇事新聞的連結
-            
+            current_news_url = ""  # 🆕 新增：用來接住肇事新聞的連結
+
             # 🆕 網路請求退避策略 (Exponential Backoff)
             max_retries = 3
             fetch_success = False
-            
+
             for attempt in range(max_retries):
                 try:
                     # ==========================================
                     # 🛡️ Stage 1: 基礎流動性快篩 (門檻下調至 200 張) & 均線計算
                     # ==========================================
-                    hist_1y = ticker_obj.history(period="1y") 
+                    hist_1y = ticker_obj.history(period="1y")
                     if hist_1y.empty or len(hist_1y) < 20:
                         reject_reason = "Stage 1 淘汰：無足夠的近期交易資料"
-                        fetch_success = True; break
-                        
-                    avg_vol_20d = hist_1y['Volume'].tail(20).mean()
-                    
+                        fetch_success = True
+                        break
+
+                    avg_vol_20d = hist_1y["Volume"].tail(20).mean()
+
                     # 🆕 更新：門檻下調至 200,000 (200張)
-                    if avg_vol_20d < 200000: 
+                    if avg_vol_20d < 200000:
                         reject_reason = f"Stage 1 淘汰：流動性不足 (近20日均量僅 {avg_vol_20d/1000:.0f} 張)"
-                        fetch_success = True; break
-                        
+                        fetch_success = True
+                        break
+
                     # 🆕 判定是否為冷門穩健標的 (200~500張之間)
                     is_niche_stable = bool(200000 <= avg_vol_20d < 500000)
-                    
-                    latest_price = float(hist_1y['Close'].iloc[-1]) 
-                    
+
+                    latest_price = float(hist_1y["Close"].iloc[-1])
+
                     # ==========================================
                     # 🛡️ 計算均線：擴充月線 (20MA) 與季線 (60MA)
                     # ==========================================
-                    ma_20 = hist_1y['Close'].tail(20).mean() if len(hist_1y) >= 20 else None
-                    ma_60 = hist_1y['Close'].tail(60).mean() if len(hist_1y) >= 60 else None
-                    ma_120 = hist_1y['Close'].tail(120).mean() if len(hist_1y) >= 120 else None
-                    ma_240 = hist_1y['Close'].tail(240).mean() if len(hist_1y) >= 240 else None
-                        
+                    ma_20 = (
+                        hist_1y["Close"].tail(20).mean() if len(hist_1y) >= 20 else None
+                    )
+                    ma_60 = (
+                        hist_1y["Close"].tail(60).mean() if len(hist_1y) >= 60 else None
+                    )
+                    ma_120 = (
+                        hist_1y["Close"].tail(120).mean()
+                        if len(hist_1y) >= 120
+                        else None
+                    )
+                    ma_240 = (
+                        hist_1y["Close"].tail(240).mean()
+                        if len(hist_1y) >= 240
+                        else None
+                    )
+
                     # ==========================================
                     # 🔬 Stage 2: 深度體檢準備 (暫時保留舊邏輯，下一階段擴充)
                     # ==========================================
                     is_old_enough_5, listing_date = check_listing_years(ticker_obj, 5)
                     if not is_old_enough_5:
                         reject_reason = "Stage 2 淘汰：資歷太淺 (上市未滿 5 年)"
-                        fetch_success = True; break
-                        
+                        fetch_success = True
+                        break
+
                     eps_data, is_profitable = get_eps_history(ticker_obj, 5)
                     if not is_profitable:
-                        reject_reason = "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
-                        fetch_success = True; break
-                        
-                    beta, latest_price = calculate_beta_and_latest_price(yf_symbol, ticker_obj)
-                    if beta is None: 
+                        reject_reason = (
+                            "獲利不穩：過去 5 年內未能達成至少 4 年獲利且去年無虧損"
+                        )
+                        fetch_success = True
+                        break
+
+                    beta, latest_price = calculate_beta_and_latest_price(
+                        yf_symbol, ticker_obj
+                    )
+                    if beta is None:
                         reject_reason = "無法計算大盤連動 Beta 值"
-                        fetch_success = True; break
-                        
+                        fetch_success = True
+                        break
+
                     # 🆕 擴充承接變數，加入 is_price_dropping_severely
-                    dividend_history, median_fill_days, dividend_yield, is_estimated, is_long_dividend_10y, is_long_dividend_15y, has_volatility, fault_count_90d, is_dividend_spike, total_div_1y, is_outlier_warning, is_fast_fill, is_price_dropping_severely = get_dividend_stats(ticker_obj, yf_symbol, latest_price)
-                    
-                    if median_fill_days is None: 
+                    (
+                        dividend_history,
+                        median_fill_days,
+                        dividend_yield,
+                        is_estimated,
+                        is_long_dividend_10y,
+                        is_long_dividend_15y,
+                        has_volatility,
+                        fault_count_90d,
+                        is_dividend_spike,
+                        total_div_1y,
+                        is_outlier_warning,
+                        is_fast_fill,
+                        is_price_dropping_severely,
+                    ) = get_dividend_stats(ticker_obj, yf_symbol, latest_price)
+
+                    if median_fill_days is None:
                         reject_reason = "缺乏配息紀錄或除息資料"
-                        fetch_success = True; break
+                        fetch_success = True
+                        break
 
                     # 🚨 執行 5% 跌幅淘汰攔截
                     if is_price_dropping_severely:
-                        reject_reason = "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
-                        fetch_success = True; break
+                        reject_reason = (
+                            "殖利率陷阱：近三年內，除息前股價較前一年下跌超過 5%"
+                        )
+                        fetch_success = True
+                        break
 
                     if dividend_yield <= 1.5:
                         reject_reason = f"利息太低：最新殖利率僅 {dividend_yield:.2f}% (未達 1.5% 基本門檻)"
-                        fetch_success = True; break
+                        fetch_success = True
+                        break
 
                     # ==========================================
                     # 🆕 任務 1.5：填息紅線防禦與單次豁免判定
                     # ==========================================
                     if fault_count_90d > 0:
                         if is_outlier_warning:
-                            print(f"  ⚠️ [豁免發動] 觸發 90 天填息紅線 1 次，但 5 年中位數優良 ({median_fill_days}天)，給予豁免！")
+                            print(
+                                f"  ⚠️ [豁免發動] 觸發 90 天填息紅線 1 次，但 5 年中位數優良 ({median_fill_days}天)，給予豁免！"
+                            )
                         else:
                             reject_reason = f"填息紅線：近 3 年有 {fault_count_90d} 次填息超過 90 天 (或嚴重貼息中)"
-                            fetch_success = True; break
+                            fetch_success = True
+                            break
                     elif median_fill_days > 15:
                         reject_reason = f"長線填息偏慢：5 年歷史填息中位數 {median_fill_days} 天 (大於 15 天嚴格門檻)"
-                        fetch_success = True; break
-                    
-                    print(f"  [Debug] 🎉 基礎達標！均量 {avg_vol_20d/1000:.0f}張 | 殖利率 {dividend_yield:.2f}% | 填息中位數 {median_fill_days}天 | Beta {beta}")
-                    
+                        fetch_success = True
+                        break
+
+                    print(
+                        f"  [Debug] 🎉 基礎達標！均量 {avg_vol_20d/1000:.0f}張 | 殖利率 {dividend_yield:.2f}% | 填息中位數 {median_fill_days}天 | Beta {beta}"
+                    )
+
                     is_financial_holding = code in FINANCIAL_HOLDINGS
-                    
-                    is_defensive_target = (beta < 0.8 and dividend_yield > 4.0)
+
+                    is_defensive_target = beta < 0.8 and dividend_yield > 4.0
                     if (is_financial_holding or is_defensive_target) and has_volatility:
                         reject_reason = "股息發放不穩定（波動過大或曾中斷）"
-                        fetch_success = True; break
-                    
-                    
+                        fetch_success = True
+                        break
 
                     # ==========================================
                     # 🚨 新增：質化資訊與重大合規排雷網
@@ -711,29 +936,34 @@ def main():
                     # 1. 官方違約交割名單攔截 (第一道防線)
                     if code in default_list:
                         reject_reason = "重大事件：名列證交所巨額違約交割公告名單"
-                        fetch_success = True; break
+                        fetch_success = True
+                        break
 
                     # 2. 呼叫雙層關鍵字新聞排雷 (第二道防線)
                     risk_level, risk_reason, news_url = check_news_risk(code, name)
-                    
+
                     # 若為 FATAL，直接宣判死刑並剔除
                     if risk_level == "FATAL":
-                        reject_reason = f"重大事件 [{risk_reason}]" # 🆕 拿掉全形冒號，改用中括號包覆
-                        current_news_url = news_url 
-                        fetch_success = True; break
-                        
+                        reject_reason = f"重大事件 [{risk_reason}]"  # 🆕 拿掉全形冒號，改用中括號包覆
+                        current_news_url = news_url
+                        fetch_success = True
+                        break
+
                     # 轉接變數給後續存檔與前端 UI 使用
-                    major_news_event = (risk_level == "WARNING") # 給前端加上 🚨 符號用
+                    major_news_event = risk_level == "WARNING"  # 給前端加上 🚨 符號用
                     has_news = bool(news_url)
-                    
+
                     # 3. 呼叫盈餘純度與股本防禦
-                    pure_eps_ratio_avg, capital_event = get_advanced_defense_stats(ticker_obj, eps_data, dividend_history)
-                    
+                    pure_eps_ratio_avg, capital_event = get_advanced_defense_stats(
+                        ticker_obj, eps_data, dividend_history
+                    )
+
                     # 4. 🚨 盈餘純度紅線淘汰邏輯 (連續吃老本淘汰)
                     if pure_eps_ratio_avg < 50.0:
                         reject_reason = f"Stage 2 淘汰：盈餘純度過低 ({pure_eps_ratio_avg}%)，有吃老本風險"
-                        fetch_success = True; break
-                    
+                        fetch_success = True
+                        break
+
                     if is_financial_holding:
                         is_super_yield = dividend_yield >= 5.0
                         is_long_dividend = is_long_dividend_15y
@@ -745,9 +975,13 @@ def main():
                     # ==========================================
                     # 🆕 統一使用「過去 1 年內累積現金配息總和」
                     annual_dividend = round(total_div_1y, 2)
-                    
+
                     # 🆕 嚴格重算殖利率，確保數學邏輯絕對吻合 (公式: 累計股利 / 股價 * 100)
-                    strict_dividend_yield = round((annual_dividend / latest_price) * 100, 2) if latest_price > 0 else 0
+                    strict_dividend_yield = (
+                        round((annual_dividend / latest_price) * 100, 2)
+                        if latest_price > 0
+                        else 0
+                    )
 
                     # 🆕 計算累積上榜次數
                     current_listed_count = history_listed_counts.get(code, 0) + 1
@@ -773,28 +1007,37 @@ def main():
                     current_month_str = now_date.strftime("%Y-%m")
                     if current_month_str not in history_hits:
                         history_hits.append(current_month_str)
-                        
+
                     # 保留近兩年紀錄避免 JSON 檔案過大
-                    if len(history_hits) > 24: 
-                        history_hits.pop(0) 
+                    if len(history_hits) > 24:
+                        history_hits.pop(0)
 
                     # 4. 重新計算正確的上榜次數 (直接算陣列長度，徹底消滅舊版灌水數字！)
                     current_listed_count = len(history_hits)
 
                     # 皇冠判定：累計 >= 12 個月 且 近 12 個月內有 10 個月在榜
-                    recent_12_months = [(now_date.replace(day=1) - timedelta(days=i*30)).strftime("%Y-%m") for i in range(12)]
-                    hits_in_last_12 = sum(1 for m in recent_12_months if m in history_hits)
-                    is_evergreen = (current_listed_count >= 12) and (hits_in_last_12 >= 10)
+                    recent_12_months = [
+                        (now_date.replace(day=1) - timedelta(days=i * 30)).strftime(
+                            "%Y-%m"
+                        )
+                        for i in range(12)
+                    ]
+                    hits_in_last_12 = sum(
+                        1 for m in recent_12_months if m in history_hits
+                    )
+                    is_evergreen = (current_listed_count >= 12) and (
+                        hits_in_last_12 >= 10
+                    )
 
                     # ==========================================
                     # 🆕 處理敗部復活 (邊緣震盪) 邏輯
                     # ==========================================
                     is_returning = False
-                    
+
                     # 🛡️ 防呆機制 1：如果字典裡還沒有這個 key，就幫它建一個空的清單
                     if "recent_dropped_stocks" not in results:
                         results["recent_dropped_stocks"] = []
-                        
+
                     # 檢查這檔股票是否在最近的淘汰名單中
                     for i, dropped_stock in enumerate(results["recent_dropped_stocks"]):
                         # 🛡️ 防呆機制 2：使用 .get() 安全讀取 symbol，避免資料缺失導致二次報錯
@@ -809,29 +1052,31 @@ def main():
                     # ==========================================
                     warning_status = ""
                     if code in disposal_dict:
-                        warning_status = disposal_dict[code] # "處置中"
+                        warning_status = disposal_dict[code]  # "處置中"
                     elif code in notice_set:
                         warning_status = "注意股"
 
                     # 🟡 若新聞排雷機制判定為 WARNING (司法調查中)，追加警示狀態
                     if risk_level == "WARNING":
                         if warning_status:
-                            warning_status += f" / 司法調查 [{risk_reason}]" # 🆕 加上專屬前綴與中括號
+                            warning_status += f" / 司法調查 [{risk_reason}]"  # 🆕 加上專屬前綴與中括號
                         else:
-                            warning_status = f"司法調查 [{risk_reason}]" # 🆕 加上專屬前綴與中括號
+                            warning_status = (
+                                f"司法調查 [{risk_reason}]"  # 🆕 加上專屬前綴與中括號
+                            )
 
                     stock_info = {
                         "symbol": code,
                         "name": name,
-                        "is_niche_stable": is_niche_stable, 
-                        "listed_count": current_listed_count, 
+                        "is_niche_stable": is_niche_stable,
+                        "listed_count": current_listed_count,
                         "latest_price": latest_price,
                         "avg_vol_20d_sheets": round(avg_vol_20d / 1000, 0),
-                        "dividend_yield_pct": strict_dividend_yield, 
-                        "dividend_amount": annual_dividend,          
+                        "dividend_yield_pct": strict_dividend_yield,
+                        "dividend_amount": annual_dividend,
                         "beta": beta,
                         "avg_fill_dividend_days": median_fill_days,
-                        "failed_fill_count": fault_count_90d, 
+                        "failed_fill_count": fault_count_90d,
                         "is_dividend_spike": is_dividend_spike,
                         "last_year_eps": eps_data[-1] if eps_data else None,
                         "recent_news_alert": has_news,
@@ -839,22 +1084,22 @@ def main():
                         "is_0050": code in TW_50_LIST,
                         "is_financial_holding": is_financial_holding,
                         "is_super_yield": is_super_yield,
-                        "is_fast_fill": is_fast_fill,        
-                        "is_outlier_warning": is_outlier_warning, 
+                        "is_fast_fill": is_fast_fill,
+                        "is_outlier_warning": is_outlier_warning,
                         "is_long_dividend": is_long_dividend,
                         "has_volatility_warning": has_volatility or is_dividend_spike,
-                        "pure_eps_ratio_avg": pure_eps_ratio_avg, 
-                        "capital_event": capital_event,       
-                        "major_news_event": major_news_event, 
-                        "gift_name": "",         
-                        "gift_last_buy_date": "" ,
-                        "is_evergreen": bool(is_evergreen),  
-                        "history_hits": history_hits,                  
-                        "last_hit_date": now_date.strftime("%Y-%m-%d"), 
-                        "warning_status": warning_status,  
-                        "is_returning": is_returning  
+                        "pure_eps_ratio_avg": pure_eps_ratio_avg,
+                        "capital_event": capital_event,
+                        "major_news_event": major_news_event,
+                        "gift_name": "",
+                        "gift_last_buy_date": "",
+                        "is_evergreen": bool(is_evergreen),
+                        "history_hits": history_hits,
+                        "last_hit_date": now_date.strftime("%Y-%m-%d"),
+                        "warning_status": warning_status,
+                        "is_returning": is_returning,
                     }
-                    
+
                     # ==========================================
                     # 🛑 全域攔截網：短中期趨勢走弱 (不接刀機制)
                     # ==========================================
@@ -862,13 +1107,14 @@ def main():
                     if ma_20 is not None and ma_60 is not None:
                         if latest_price < ma_20 and latest_price < ma_60:
                             reject_reason = "短中期趨勢走弱 (股價跌破月線與季線)"
-                            fetch_success = True; break
+                            fetch_success = True
+                            break
 
                     # ==========================================
                     # 🚀 分類與攔截網：合格的好股票，若被警示則獨立存放
                     # ==========================================
-                    added_to_warning = False # 用來防止同一檔股票被重複塞入警示清單
-                    
+                    added_to_warning = False  # 用來防止同一檔股票被重複塞入警示清單
+
                     # 1. 防禦型判定
                     if beta < 0.8 and dividend_yield > 4.0:
                         # 防禦型：股價不可嚴重跌破年線 (容許 5% 誤差)
@@ -881,15 +1127,22 @@ def main():
                                 added_to_warning = True
                             else:
                                 results["defensive_stocks"].append(stock_info)
-                            
+
                     # 2. 成長型判定
-                    is_eps_growing = len(eps_data) >= 4 and (eps_data[-1] is not None) and (eps_data[-4] is not None) and (eps_data[-1] > eps_data[-4])
-                    
+                    is_eps_growing = (
+                        len(eps_data) >= 4
+                        and (eps_data[-1] is not None)
+                        and (eps_data[-4] is not None)
+                        and (eps_data[-1] > eps_data[-4])
+                    )
+
                     if 0.8 <= beta <= 1.5 and is_eps_growing:
                         # 成長型：均線需多頭排列 (價格 > 半年線 > 年線)
                         if ma_120 and ma_240 and not (latest_price > ma_120 > ma_240):
-                            if not classified: # 避免覆寫已被分類為抗跌的狀態
-                                reject_reason = "趨勢未達成長股動能標準 (均線未呈多頭排列)"
+                            if not classified:  # 避免覆寫已被分類為抗跌的狀態
+                                reject_reason = (
+                                    "趨勢未達成長股動能標準 (均線未呈多頭排列)"
+                                )
                         else:
                             classified = True
                             if warning_status:
@@ -898,7 +1151,7 @@ def main():
                                     added_to_warning = True
                             else:
                                 results["growth_stocks"].append(stock_info)
-                    
+
                     # 3. 金融股判定
                     if is_financial_holding:
                         classified = True
@@ -916,83 +1169,100 @@ def main():
 
                     # 順利完成所有 API 抓取與判定
                     fetch_success = True
-                    break 
-                    
+                    break
+
                 except Exception as e:
                     if attempt < max_retries - 1:
                         # 指數退避：3秒 -> 6秒 -> 12秒 + 隨機微調
-                        sleep_time = (2 ** attempt) * 3 + random.uniform(0.5, 1.5)
-                        print(f"  ⚠️ 網路或伺服器異常 ({e})，啟動防護機制... 等待 {sleep_time:.1f} 秒後進行第 {attempt+1} 次重試")
+                        sleep_time = (2**attempt) * 3 + random.uniform(0.5, 1.5)
+                        print(
+                            f"  ⚠️ 網路或伺服器異常 ({e})，啟動防護機制... 等待 {sleep_time:.1f} 秒後進行第 {attempt+1} 次重試"
+                        )
                         time.sleep(sleep_time)
                     else:
-                        print(f"  ❌ ⚠️ [{code}] 連續抓取失敗 {max_retries} 次，已優雅跳過該檔股票！")
-            
+                        print(
+                            f"  ❌ ⚠️ [{code}] 連續抓取失敗 {max_retries} 次，已優雅跳過該檔股票！"
+                        )
+
             # 🆕 防崩潰優雅跳過：連錯3次直接登記為拒絕，並進入下一檔股票
             if not fetch_success:
-                results["rejected_stocks"].append({
-                    "symbol": code,
-                    "name": name,
-                    "reason": "連線失敗或伺服器持續拒絕請求 (可能觸發反爬蟲)"
-                })
+                results["rejected_stocks"].append(
+                    {
+                        "symbol": code,
+                        "name": name,
+                        "reason": "連線失敗或伺服器持續拒絕請求 (可能觸發反爬蟲)",
+                    }
+                )
                 if code not in results["processed_symbols"]:
                     results["processed_symbols"].append(code)
-                continue 
-                
+                continue
+
             # --- 接下來是原本處理成功的邏輯 (保持原樣) ---
             if reject_reason:
                 print(f"  -> 剔除: {reject_reason}")
-                
+
                 # 🆕 任務四：若上週是合格名單，本週被淘汰，則加入 recent_dropped_stocks
                 if code in previous_good_stocks:
                     dropped_info = previous_good_stocks[code].copy()
                     dropped_info["reason"] = reject_reason
-                    dropped_info["listed_count"] = 0 # 重置穩定度
+                    dropped_info["listed_count"] = 0  # 重置穩定度
                     # 👇 1. 補上今天的淘汰日期，讓 30 天保留機制能計算
-                    dropped_info["drop_date"] = datetime.now().strftime("%Y-%m-%d") 
-                    
+                    dropped_info["drop_date"] = datetime.now().strftime("%Y-%m-%d")
+
                     # 🆕 補釘：把肇事新聞的連結綁定進去，覆寫掉上週的舊連結
                     if current_news_url:
                         dropped_info["google_news_url"] = current_news_url
-                    
+
                     # 🆕 2. 檢查是否已經在清單內，避免重複加入
-                    existing_index = next((i for i, s in enumerate(results["recent_dropped_stocks"]) if s["symbol"] == code), -1)
+                    existing_index = next(
+                        (
+                            i
+                            for i, s in enumerate(results["recent_dropped_stocks"])
+                            if s["symbol"] == code
+                        ),
+                        -1,
+                    )
                     if existing_index >= 0:
-                        results["recent_dropped_stocks"][existing_index] = dropped_info # 已存在則更新最新狀態
+                        results["recent_dropped_stocks"][
+                            existing_index
+                        ] = dropped_info  # 已存在則更新最新狀態
                     else:
                         results["recent_dropped_stocks"].append(dropped_info)
 
-                results["rejected_stocks"].append({
-                    "symbol": code,
-                    "name": name,
-                    "reason": reject_reason
-                })
+                results["rejected_stocks"].append(
+                    {"symbol": code, "name": name, "reason": reject_reason}
+                )
 
             if code not in results["processed_symbols"]:
                 results["processed_symbols"].append(code)
-            
+
             session_processed_count += 1
-            
+
             if session_processed_count % 20 == 0:
                 save_progress(output_filename, results)
-                print(f"\n💾 [系統提示] 已自動存檔進度... (總共已處理 {len(results['processed_symbols'])} 檔)")
-                
+                print(
+                    f"\n💾 [系統提示] 已自動存檔進度... (總共已處理 {len(results['processed_symbols'])} 檔)"
+                )
+
             # 💡 原本的成功抓取休眠 (防被鎖 IP 的節奏控制)
             sleep_time_normal = random.uniform(1.5, 3.5)
             print(f"  ⏳ 隨機休息 {sleep_time_normal:.1f} 秒，模仿人類操作節奏...")
             time.sleep(sleep_time_normal)
-            
+
     except KeyboardInterrupt:
         print("\n\n🚨 [系統警告] 收到中斷指令 (Ctrl+C)，正在儲存最後進度...")
         # 👇 這兩行一定要加回來！這樣意外中斷時才會真的存檔
-        save_progress(output_filename, results) 
-        print(f"✅ 儲存完畢！目前總計處理了 {len(results['processed_symbols'])} 檔股票。安全結束程式。")
+        save_progress(output_filename, results)
+        print(
+            f"✅ 儲存完畢！目前總計處理了 {len(results['processed_symbols'])} 檔股票。安全結束程式。"
+        )
         sys.exit(0)
-        
+
     # === 以下是正常跑完全部股票後的結尾 ===
     end_time = time.time()
     total_seconds = int(end_time - start_time)
     mins, secs = divmod(total_seconds, 60)
-    
+
     # ==========================================
     # 🆕 任務一：0050 成分股月底調整提醒機制
     # ==========================================
@@ -1009,22 +1279,26 @@ def main():
         if last_reminder != current_ym:
             reminder_text = "\n\n⚠️ <b>【重要提醒】本月為 0050 成分股調整月！</b>\n請記得手動檢查並更新程式碼中的成分股名單。"
             # 寫入記憶，確保本月即使重複跑也不會再吵你
-            results["last_0050_reminder_month"] = current_ym  
+            results["last_0050_reminder_month"] = current_ym
 
     # 💾 確保提醒的記憶欄位有被存入 JSON 中
     save_progress(output_filename, results)
-    
+
     # 計算收錄與淘汰總數
-    total_passed = len(results["defensive_stocks"]) + len(results["growth_stocks"]) + len(results["financial_stocks"])
+    total_passed = (
+        len(results["defensive_stocks"])
+        + len(results["growth_stocks"])
+        + len(results["financial_stocks"])
+    )
     total_rejected = len(results["rejected_stocks"])
-    
-    print("\n" + "="*50)
+
+    print("\n" + "=" * 50)
     print("📊 [v2.0 執行統計報告]")
     print(f"⏱️ 總耗時：{mins} 分 {secs} 秒")
     print(f"✅ 成功收錄資優生總數：{total_passed} 檔")
     print(f"❌ 因未達標而淘汰總數：{total_rejected} 檔")
     print(f"💾 資料已匯出至 {output_filename} 以及 rejected_stocks.json")
-    print("="*50)
+    print("=" * 50)
 
     # 組合通知訊息 (動態加上 reminder_text)
     report_msg = (
@@ -1036,6 +1310,7 @@ def main():
         f"{reminder_text}"
     )
     send_telegram_notification(report_msg)
+
 
 if __name__ == "__main__":
     main()
